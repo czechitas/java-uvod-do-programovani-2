@@ -7,18 +7,18 @@ Jednodenni workshop o zakladnich konceptech OOP v Jave.
 Cil workshopu
 -------------
 
-(o) Predstavit Javu a osvetlit rozdil mezi Javou a jinymi jazyky
-    - Udelat reklamu, proc zrovna Java
-    - Namotivovat k trimesicnimu kurzu Java I
+* Predstavit Javu a osvetlit rozdil mezi Javou a jinymi jazyky
+    * Udelat reklamu, proc zrovna Java
+    * Namotivovat k trimesicnimu kurzu Java I
 
-(o) Naucit studentky trochu pracovat s IntelliJ IDEA
+* Naucit studentky trochu pracovat s IntelliJ IDEA
 
-(o) Ukazat objekty v Jave
-    - Promenne nemuseji obsahovat jen cisla a textove retezce
-    - Instanciovani objektu
-    - Metody
-    - Vlastnosti
-    - Trida vs. objekt vs. promenna
+* Ukazat objekty v Jave
+    * Promenne nemuseji obsahovat jen cisla a textove retezce
+    * Instanciovani objektu
+    * Metody
+    * Vlastnosti
+    * Trida vs. objekt vs. promenna
 
 
 Vstupni znalosti
