@@ -93,6 +93,8 @@ Scenar
     Tip pro studentky na zdroj k precteni: <br/>
     https://www.itnetwork.cz/java/oop/java-tutorial-uvod-do-objektove-orientovaneho-programovani
 
+    Gary Explains: <br/>
+    https://www.youtube.com/watch?v=GI_V3yzVDtA
 
 
 Video z minulych behu
