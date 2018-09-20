@@ -8,13 +8,13 @@ Studentky si museji udelat instalaci na kurz v klidu doma. Instalace je ve forme
 Myslenka je podobna treba XAMPu, ktery se taky da jen stahnout, rozbalit a jet.
 
 Detailni pokyny k instalaci (webove stranky, ktere se zasilaji studentkam):
-[http://javabrno.czechitas.cz/2018-jaro/install-community/]
+http://javabrno.czechitas.cz/2018-jaro/install-community/
 
 Zdrojova forma toho popisu:
-[https://github.com/czechitas/java-1/tree/master/Instalacni%20pokyny]
+https://github.com/czechitas/java-1/tree/master/Instalacni%20pokyny
 
 Pokud byste chteli vedet, co v instalcce je doopravdy, zde je popis:
-[https://github.com/czechitas/java-1/tree/master/Pro%20lektory/Instalace]
+https://github.com/czechitas/java-1/tree/master/Pro%20lektory/Instalace
 
 
 
@@ -90,7 +90,8 @@ Scenar
     Cokoliv, co bude studentky zajimat
     Pozvani na dlouhodoby kurz Java 1
 
-    Tip pro studentky na zdroj k precteni: https://www.itnetwork.cz/java/oop/java-tutorial-uvod-do-objektove-orientovaneho-programovani
+    Tip pro studentky na zdroj k precteni:
+    https://www.itnetwork.cz/java/oop/java-tutorial-uvod-do-objektove-orientovaneho-programovani
 
 
 
@@ -100,10 +101,10 @@ Video z minulych behu
 Pro inspiraci, odkazy na videa z minula:
 
 Uvod do Javy 27. 1. 2018
-[https://www.youtube.com/watch?v=TQov3-c5BZs]
+https://www.youtube.com/watch?v=TQov3-c5BZs
 
 Uvod do Javy 23. 6. 2018
-[https://www.youtube.com/watch?v=_4wxGOGb7Hg]
+https://www.youtube.com/watch?v=_4wxGOGb7Hg
 
 Uvod do OOP v Jave 28. 7. 2018
-[https://www.youtube.com/watch?v=BWYp0kePluw]
+https://www.youtube.com/watch?v=BWYp0kePluw
