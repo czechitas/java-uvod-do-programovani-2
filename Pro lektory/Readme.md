@@ -42,53 +42,53 @@ Scenar
 ------
 
 1. Spolecna prace - instanciovani nekterych trid v Java SE
-    - String
-    - Color
-    - LocalDate
-    - LocalTime
-    - LocalDateTime
+    * String
+    * Color
+    * LocalDate
+    * LocalTime
+    * LocalDateTime
     
     Nepovinne:
-    - Dimension
-    - Random
-    - Scanner
-    - DoubleFormatter
+    * Dimension
+    * Random
+    * Scanner
+    * DoubleFormatter
 
 2. Spolecna prace - instanciovani vizualnich trid z JFC Swing
-    - JFrame
-    - JLabel
-    - Font
+    * JFrame
+    * JLabel
+    * Font
 
 3. (Obed)
 
 4. Spolecne seznameni s hernim enginem Kocka, mys, syr
-    - Vypracovat dohromady par jednodussich ukolu. Inspirace dle Zadani.docx.
+    * Vypracovat dohromady par jednodussich ukolu. Inspirace dle Zadani.docx.
 
 5. Samostatna prace s hernim enginem Kocka, mys, syr
-    - Samostatne si studentky uz dal mohou zpracovavat dalsi ukoly ze Zadani.docx
+    * Samostatne si studentky uz dal mohou zpracovavat dalsi ukoly ze Zadani.docx
       nebo vylepsovat dle sve libovule.
 
 6. Diskuse
-    O tom, co se studentky naucily
-        Trida
-        Objekt
-            Vlastnost
-            Metoda
-        Promenna
-    Druhy programovacich jazyku
-        Strojovy kod
-        Strukturovane jazyky (C, Pascal)
-        Objektove jazyky (Java, C#)
-    Druhy behu
-        Kompilovane jazyky
-        Skriptovaci jazyky
-    Co je to webova aplikace, androidova aplikace, desktopova aplikace
-    Co je to cloud
-        Cloudovy file hosting
-        Cloudove dokumenty (Google Apps)
-        Cloudovy web app hosting
-    Cokoliv, co bude studentky zajimat
-    Pozvani na dlouhodoby kurz Java 1
+    * O tom, co se studentky naucily
+        * Trida
+        * Objekt
+            * Vlastnost
+            * Metoda
+        * Promenna
+    * Druhy programovacich jazyku
+        * Strojovy kod
+        * Strukturovane jazyky (C, Pascal)
+        * Objektove jazyky (Java, C#)
+    * Druhy behu
+        * Kompilovane jazyky
+        * Skriptovaci jazyky
+    * Co je to webova aplikace, androidova aplikace, desktopova aplikace
+    * Co je to cloud
+        * Cloudovy file hosting
+        * Cloudove dokumenty (Google Apps)
+        * Cloudovy web app hosting
+    * Cokoliv, co bude studentky zajimat
+    * Pozvani na dlouhodoby kurz Java 1
 
     Tip pro studentky na zdroj k precteni:
     https://www.itnetwork.cz/java/oop/java-tutorial-uvod-do-objektove-orientovaneho-programovani
@@ -100,11 +100,11 @@ Video z minulych behu
 
 Pro inspiraci, odkazy na videa z minula:
 
-Uvod do Javy 27. 1. 2018
+Uvod do Javy 27. 1. 2018<br/>
 https://www.youtube.com/watch?v=TQov3-c5BZs
 
-Uvod do Javy 23. 6. 2018
+Uvod do Javy 23. 6. 2018<br/>
 https://www.youtube.com/watch?v=_4wxGOGb7Hg
 
-Uvod do OOP v Jave 28. 7. 2018
+Uvod do OOP v Jave 28. 7. 2018<br/>
 https://www.youtube.com/watch?v=BWYp0kePluw
