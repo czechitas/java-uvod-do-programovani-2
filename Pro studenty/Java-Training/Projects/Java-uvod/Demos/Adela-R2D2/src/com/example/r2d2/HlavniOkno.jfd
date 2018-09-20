@@ -1,0 +1,268 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_112-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"defaultCloseOperation": 2
+			"title": "R2D2"
+			"$locationPolicy": 1
+			"$sizePolicy": 1
+			"background": new java.awt.Color( 0, 0, 51, 255 )
+			auxiliary() {
+				"JavaCodeGenerator.postInitCode": "this.contentPane = (JPanel) this.getContentPane();\nthis.contentPane.setBackground(this.getBackground());"
+			}
+			addEvent( new FormEvent( "java.awt.event.WindowListener", "windowOpened", "priOtevreniOkna", true ) )
+			addEvent( new FormEvent( "java.awt.event.WindowListener", "windowClosing", "priZavreniOkna", true ) )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labRobot"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/com/example/r2d2/r2d2-vlevo.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 30
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed1"
+				"background": &Color0 new java.awt.Color( 51, 204, 255, 255 )
+				"opaque": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"width": 605
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed2"
+				"background": #Color0
+				"opaque": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 605
+				"height": 25
+				"x": 0
+				"y": 500
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed3"
+				"opaque": true
+				"background": &Color1 new java.awt.Color( 51, 204, 255, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 105
+				"width": 20
+				"height": 395
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed4"
+				"opaque": true
+				"background": #Color1
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 20
+				"height": 205
+				"x": 220
+				"y": 20
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed5"
+				"opaque": true
+				"background": #Color1
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 20
+				"height": 200
+				"x": 90
+				"y": 305
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed6"
+				"opaque": true
+				"background": #Color1
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 20
+				"height": 110
+				"x": 220
+				"y": 325
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed7"
+				"opaque": true
+				"background": #Color1
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 20
+				"height": 350
+				"x": 310
+				"y": 100
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labLuke"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/com/example/r2d2/luke.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 520
+				"y": 20
+				"width": 65
+				"height": 70
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed8"
+				"background": #Color0
+				"opaque": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 130
+				"height": 20
+				"x": 20
+				"y": 105
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed9"
+				"background": #Color0
+				"opaque": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 105
+				"height": 20
+				"x": 115
+				"y": 205
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed10"
+				"background": #Color0
+				"opaque": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 130
+				"height": 20
+				"x": 110
+				"y": 305
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed11"
+				"background": #Color0
+				"opaque": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 100
+				"height": 20
+				"x": 425
+				"y": 285
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed12"
+				"opaque": true
+				"background": #Color1
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 20
+				"height": 400
+				"x": 585
+				"y": 20
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed13"
+				"background": #Color0
+				"opaque": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 55
+				"height": 20
+				"x": 165
+				"y": 415
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed14"
+				"opaque": true
+				"background": #Color1
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 20
+				"height": 80
+				"x": 490
+				"y": 125
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed15"
+				"background": #Color0
+				"opaque": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 75
+				"height": 20
+				"x": 510
+				"y": 400
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed16"
+				"opaque": true
+				"background": #Color1
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 20
+				"height": 120
+				"x": 400
+				"y": 20
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed17"
+				"opaque": true
+				"background": #Color1
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 20
+				"height": 145
+				"x": 425
+				"y": 305
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labTroop1"
+				"icon": &SwingIcon0 new com.jformdesigner.model.SwingIcon( 0, "/com/example/r2d2/troop.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 25
+				"y": 130
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labTroop2"
+				"icon": #SwingIcon0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 37
+				"height": 70
+				"x": 480
+				"y": 210
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labTroop3"
+				"icon": #SwingIcon0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 37
+				"height": 70
+				"x": 385
+				"y": 285
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labLeia"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/com/example/r2d2/leia.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 380
+				"y": 425
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labObivan"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/com/example/r2d2/obivanKenobi.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 170
+				"y": 335
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed18Cil"
+				"background": #Color1
+				"opaque": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 15
+				"height": 80
+				"x": 590
+				"y": 420
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "labZed19"
+				"opaque": true
+				"background": #Color1
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 10
+				"height": 80
+				"x": 585
+				"y": 420
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 5 )
+			"size": new java.awt.Dimension( 605, 550 )
+		} )
+	}
+}

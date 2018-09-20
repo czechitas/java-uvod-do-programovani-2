@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run App" type="GroovyScriptRunConfiguration" factoryName="Groovy" singleton="true">
+    <module name="java-module" />
+    <setting name="path" value="file://$PROJECT_DIR$/src/main/java/App.groovy" />
+    <setting name="vmparams" value="" />
+    <setting name="params" value="" />
+    <setting name="workDir" value="file://$PROJECT_DIR$/src/main/java" />
+    <setting name="debug" value="false" />
+    <method />
+  </configuration>
+</component>

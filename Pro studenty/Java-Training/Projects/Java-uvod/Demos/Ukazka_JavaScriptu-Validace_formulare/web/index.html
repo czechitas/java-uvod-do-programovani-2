@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Registrace</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+    <h1>Registrační formulář</h1>
+
+    <table>
+        <tr>
+            <td>Jméno:</td>
+            <td><input id="jmeno" name="jmeno" type="text"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Příjmení:</td>
+            <td><input id="prijmeni" name="prijmeni" type="text"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input id="email" name="email" type="text"></td>
+            <td><span id="emailChyba" class="chyba"></span></td>
+        </tr>
+        <tr>
+            <td>Heslo:</td>
+            <td><input id="heslo1" name="heslo1" type="text"></td>
+            <td><span id="hesloChyba" class="chyba"></span></td>
+        </tr>
+        <tr>
+            <td>Heslo (pro zopakování):</td>
+            <td><input id="heslo2" name="heslo2" type="text"></td>
+            <td><span class="chyba"></span></td>
+        </tr>
+    </table>
+
+    <script src="program.js"></script>
+
+</body>
+</html>
