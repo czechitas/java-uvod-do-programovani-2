@@ -7,13 +7,13 @@ Instalace
 Studentky si museji udelat instalaci na kurz v klidu doma. Instalace je ve forme prednastaveneho .zip archivu. Tedy, *neni to jen popis*, jake produkty si maji stahnout a nainstalovat, ale naopak je to cele uz nainstalovane a nastavene. 1 zip, ktery si jen rozbali a jede to. Tohle je hrozne dulezite, protoze toho nastavovani je javovem svete hodne (IntelliJ na JDK, Maven na JDK, IntelliJ na Maven, IntelliJ na Tomcat, Maven na Tomcat, Maven na repository, a tuny dalsiho).
 Myslenka je podobna treba XAMPu, ktery se taky da jen stahnout, rozbalit a jet.
 
-Detailni pokyny k instalaci (webove stranky, ktere se zasilaji studentkam):
+Detailni pokyny k instalaci (webove stranky, ktere se zasilaji studentkam): <br/>
 http://javabrno.czechitas.cz/2018-jaro/install-community/
 
-Zdrojova forma toho popisu:
+Zdrojova forma toho popisu: <br/>
 https://github.com/czechitas/java-1/tree/master/Instalacni%20pokyny
 
-Pokud byste chteli vedet, co v instalcce je doopravdy, zde je popis:
+Pokud byste chteli vedet, co v instalcce je doopravdy, zde je popis: <br/>
 https://github.com/czechitas/java-1/tree/master/Pro%20lektory/Instalace
 
 
@@ -90,7 +90,7 @@ Scenar
     * Cokoliv, co bude studentky zajimat
     * Pozvani na dlouhodoby kurz Java 1
 
-    Tip pro studentky na zdroj k precteni:
+    Tip pro studentky na zdroj k precteni: <br/>
     https://www.itnetwork.cz/java/oop/java-tutorial-uvod-do-objektove-orientovaneho-programovani
 
 
@@ -100,11 +100,11 @@ Video z minulych behu
 
 Pro inspiraci, odkazy na videa z minula:
 
-Uvod do Javy 27. 1. 2018<br/>
+Uvod do Javy 27. 1. 2018 <br/>
 https://www.youtube.com/watch?v=TQov3-c5BZs
 
-Uvod do Javy 23. 6. 2018<br/>
+Uvod do Javy 23. 6. 2018 <br/>
 https://www.youtube.com/watch?v=_4wxGOGb7Hg
 
-Uvod do OOP v Jave 28. 7. 2018<br/>
+Uvod do OOP v Jave 28. 7. 2018 <br/>
 https://www.youtube.com/watch?v=BWYp0kePluw
