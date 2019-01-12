@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61754180-8fba-41fe-bf32-80685e35632c" name="Default" comment="" />
+    <list default="true" id="45cb69d3-09bb-4bec-840f-7a9dc4c51586" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/" />
-    <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/dist/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,69 +17,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HlavniOkno.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
+    <leaf>
+      <file leaf-file-name="SpousteciTrida.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/bilickova/miny/SpousteciTrida.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="71" column="20" lean-forward="false" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
-              <folding>
-                <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-                <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-                <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HlavniOkno.jfd" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-          <provider selected="true" editor-type-id="JFormDesigner">
-            <state paletteWidth="180" propertiesWidth="375" structureHeight="375" />
-          </provider>
-        </entry>
-      </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>nastavV</find>
-      <find>odk</find>
-      <find>setVisi</find>
-      <find>odkryjOkol</find>
-      <find>vitezs</find>
-    </findStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -89,16 +38,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd" />
-        <option value="$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/bilickova/miny/SpousteciTrida.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/bilickova/miny/HlavniOkno.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1760" />
-    <option name="height" value="919" />
+    <option name="width" value="1440" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -115,31 +64,72 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Miny" />
+              <option name="myItemId" value="Lida-Miny" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Miny" />
+              <option name="myItemId" value="Lida-Miny" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Miny" />
+              <option name="myItemId" value="Lida-Miny" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Miny" />
+              <option name="myItemId" value="Lida-Miny" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bilickova" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miny" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lida-Miny" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lida-Miny" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -157,12 +147,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$JAVATRAINING$/Projects/Demos/R2D2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.Run SpousteciTrida">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -310,7 +300,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Miny" />
+      <module name="java-module" />
       <envs />
       <method />
     </configuration>
@@ -374,49 +364,40 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="61754180-8fba-41fe-bf32-80685e35632c" name="Default" comment="" />
-      <created>1512683084674</created>
+      <changelist id="45cb69d3-09bb-4bec-840f-7a9dc4c51586" name="Default" comment="" />
+      <created>1547270100123</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1512683084674</updated>
+      <updated>1547270100123</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1760" height="919" extended-state="6" />
+    <frame x="-4" y="-4" width="1440" height="737" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15782665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17020023" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536023" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38244852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -429,9 +410,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="38" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -439,730 +418,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/bilickova/miny/HlavniOkno.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="150" propertiesWidth="312" structureHeight="312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/bilickova/miny/HlavniOkno.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="160">
+          <caret line="202" column="50" lean-forward="false" selection-start-line="202" selection-start-column="50" selection-end-line="202" selection-end-column="50" />
           <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1547270880045" expanded="false" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1547270880045" expanded="true" signature="17374:22620" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/bilickova/miny/SpousteciTrida.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="jar://$JAVATRAINING$/JDK/src.zip!/java/awt/AWTEventMulticaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="338" column="0" lean-forward="false" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="180" propertiesWidth="375" structureHeight="375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cz/bilickova/miny/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="71" column="20" lean-forward="false" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
-          <folding>
-            <element signature="method#HlavniOkno#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uploadPictures#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocitadlo#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#priTiknutiCasovace#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPocetMin#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavInfoPanel#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#prepocitejHraciPlan#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#uklidHraciPole#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPopisky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#smazPolicka#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#rozlozMiny#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavVelikostOkna#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vytvorPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavKlavesnici#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#poKliknutiMysiNaPolicko#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kontrolaVitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#vitezstvi#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#nastavPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjPopisek#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#kolikMinJeVOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#urciOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#spocitejMinyOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#gameOver#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjCelouPlochu#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#odkryjOkoli#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemZacatecnik#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemPokrocily#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemExpert#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemKonec#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1513126361865" expanded="true" signature="319:821" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1513126361865" expanded="true" signature="17392:22638" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

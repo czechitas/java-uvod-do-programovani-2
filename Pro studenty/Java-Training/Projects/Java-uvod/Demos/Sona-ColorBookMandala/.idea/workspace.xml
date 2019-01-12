@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b3459a5-1fe4-40a1-8776-362708116520" name="Default" comment="" />
+    <list default="true" id="fefda866-703f-47db-a685-45d5b64fb733" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/" />
-    <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/dist/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,92 +17,39 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HlavniOkno.jfd" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.jfd">
-          <provider selected="true" editor-type-id="JFormDesigner">
-            <state paletteWidth="180" propertiesWidth="392" structureHeight="206" />
+    <leaf>
+      <file leaf-file-name="SpousteciTrida.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/mandala/SpousteciTrida.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HlavniOkno.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.java">
+      <file leaf-file-name="HlavniOkno.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/mandala/HlavniOkno.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="1022" column="54" lean-forward="false" selection-start-line="1022" selection-start-column="54" selection-end-line="1022" selection-end-column="54" />
+            <state relative-caret-position="224">
+              <caret line="1098" column="91" lean-forward="false" selection-start-line="1098" selection-start-column="91" selection-end-line="1098" selection-end-column="91" />
               <folding>
-                <element signature="method#thisWindowOpened#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#menuItemSaveAction#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#saveAs#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#savePicture#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#menuItemOpenAction#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#loadMandala#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabMandala1#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabMandala2#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabMandala3#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabMandala4#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabMandala5#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabAccept#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#updatePencilWidth#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabRandom#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabSet#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabBlack#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabWhite#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabDarkGrey#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabLightGrey#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabCrimson#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabBrown#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabRed#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabPink#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabOrange#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabYellow#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabSun#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabSand#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabDarkGreen#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabLightGreen#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabBlue#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabSky#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabDarkBlue#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabGreyBlue#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabPurple#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#onClickLabLila#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#determineColor#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#updateColorData#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#catchColor#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#Random#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#dropColor#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#PencilDrawning#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#FillShape#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#floodLoop#0;class#HlavniOkno#0" expanded="false" />
-                <element signature="method#isEqualRgb#0;class#HlavniOkno#0" expanded="false" />
-                <marker date="1531518506265" expanded="false" signature="344:1704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-                <marker date="1531518506265" expanded="true" signature="15898:37780" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1547271491270" expanded="false" signature="342:1702" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+                <marker date="1547271491270" expanded="true" signature="15884:37750" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MouseAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$JAVATRAINING$/JDK/src.zip!/java/awt/event/MouseAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MouseMotionAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$JAVATRAINING$/JDK/src.zip!/java/awt/event/MouseMotionAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="55" column="22" lean-forward="false" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/com/example/desktopapp</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/cz/czechitas/mandala</replace>
+    </replaceStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -112,16 +59,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.java" />
-        <option value="$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.jfd" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/czechitas/mandala/SpousteciTrida.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/czechitas/mandala/HlavniOkno.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1760" />
-    <option name="height" value="919" />
+    <option name="width" value="1440" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -138,27 +85,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ColorBookMandalaEdition" />
+              <option name="myItemId" value="Sona-ColorBookMandala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ColorBookMandalaEdition" />
+              <option name="myItemId" value="Sona-ColorBookMandala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ColorBookMandalaEdition" />
+              <option name="myItemId" value="Sona-ColorBookMandala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ColorBookMandalaEdition" />
+              <option name="myItemId" value="Sona-ColorBookMandala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -166,83 +111,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sona-ColorBookMandala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sona-ColorBookMandala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="desktopapp" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="czechitas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mandala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
   <component name="RunManager" selected="Application.Run SpousteciTrida">
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -266,22 +183,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -301,52 +202,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ColorBookMandalaEdition" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -397,55 +252,53 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4b3459a5-1fe4-40a1-8776-362708116520" name="Default" comment="" />
-      <created>1513102171463</created>
+      <changelist id="fefda866-703f-47db-a685-45d5b64fb733" name="Default" comment="" />
+      <created>1547271284241</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1513102171463</updated>
+      <updated>1547271284241</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1760" height="919" extended-state="6" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1440" height="737" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.096194506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08926261" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.057714958" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="9" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -453,740 +306,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/mandala/SpousteciTrida.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3224">
-          <caret line="424" column="4" lean-forward="false" selection-start-line="424" selection-start-column="4" selection-end-line="424" selection-end-column="4" />
-          <folding>
-            <element signature="method#thisWindowOpened#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemSaveAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#saveAs#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#savePicture#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemOpenAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#loadMandala#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala1#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala2#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala3#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala4#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala5#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabAccept#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updatePencilWidth#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRandom#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSet#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlack#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabWhite#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabCrimson#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBrown#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRed#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPink#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabOrange#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabYellow#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSun#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSand#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabGreyBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPurple#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLila#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#determineColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updateColorData#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#catchColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#Random#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#dropColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#PencilDrawning#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#FillShape#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#floodLoop#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#isEqualRgb#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1531518506265" expanded="false" signature="344:1704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1531518506265" expanded="true" signature="15898:37780" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#thisWindowOpened#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemSaveAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#saveAs#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#savePicture#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemOpenAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#loadMandala#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala1#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala2#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala3#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala4#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala5#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabAccept#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updatePencilWidth#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRandom#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSet#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlack#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabWhite#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabCrimson#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBrown#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRed#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPink#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabOrange#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabYellow#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSun#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSand#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabGreyBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPurple#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLila#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#determineColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updateColorData#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#catchColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#Random#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#dropColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#PencilDrawning#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#FillShape#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#floodLoop#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#isEqualRgb#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1531518506265" expanded="false" signature="344:1704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1531518506265" expanded="true" signature="15898:37780" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#thisWindowOpened#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemSaveAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#saveAs#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#savePicture#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemOpenAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#loadMandala#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala1#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala2#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala3#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala4#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala5#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabAccept#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updatePencilWidth#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRandom#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSet#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlack#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabWhite#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabCrimson#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBrown#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRed#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPink#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabOrange#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabYellow#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSun#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSand#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabGreyBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPurple#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLila#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#determineColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updateColorData#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#catchColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#Random#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#dropColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#PencilDrawning#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#FillShape#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#floodLoop#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#isEqualRgb#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1531518506265" expanded="false" signature="344:1704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1531518506265" expanded="true" signature="15898:37780" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#thisWindowOpened#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemSaveAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#saveAs#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#savePicture#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemOpenAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#loadMandala#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala1#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala2#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala3#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala4#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala5#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabAccept#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updatePencilWidth#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRandom#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSet#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlack#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabWhite#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabCrimson#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBrown#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRed#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPink#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabOrange#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabYellow#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSun#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSand#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabGreyBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPurple#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLila#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#determineColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updateColorData#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#catchColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#Random#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#dropColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#PencilDrawning#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#FillShape#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#floodLoop#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#isEqualRgb#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1531518506265" expanded="false" signature="344:1704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1531518506265" expanded="true" signature="15898:37780" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#thisWindowOpened#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemSaveAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#saveAs#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#savePicture#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemOpenAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#loadMandala#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala1#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala2#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala3#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala4#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala5#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabAccept#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updatePencilWidth#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRandom#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSet#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlack#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabWhite#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabCrimson#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBrown#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRed#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPink#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabOrange#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabYellow#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSun#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSand#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabGreyBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPurple#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLila#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#determineColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updateColorData#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#catchColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#Random#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#dropColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#PencilDrawning#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#FillShape#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#floodLoop#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#isEqualRgb#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1531518506265" expanded="false" signature="344:1704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1531518506265" expanded="true" signature="15898:37780" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#thisWindowOpened#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemSaveAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#saveAs#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#savePicture#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemOpenAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#loadMandala#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala1#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala2#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala3#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala4#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala5#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabAccept#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updatePencilWidth#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRandom#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSet#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlack#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabWhite#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabCrimson#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBrown#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRed#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPink#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabOrange#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabYellow#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSun#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSand#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabGreyBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPurple#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLila#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#determineColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updateColorData#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#catchColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#Random#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#dropColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#PencilDrawning#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#FillShape#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#floodLoop#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#isEqualRgb#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1531518506265" expanded="false" signature="344:1704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1531518506265" expanded="true" signature="15898:37780" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#thisWindowOpened#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemSaveAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#saveAs#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#savePicture#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemOpenAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#loadMandala#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala1#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala2#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala3#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala4#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala5#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabAccept#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updatePencilWidth#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRandom#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSet#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlack#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabWhite#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabCrimson#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBrown#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRed#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPink#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabOrange#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabYellow#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSun#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSand#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabGreyBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPurple#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLila#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#determineColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updateColorData#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#catchColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#Random#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#dropColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#PencilDrawning#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#FillShape#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#floodLoop#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#isEqualRgb#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1531518506265" expanded="false" signature="344:1704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1531518506265" expanded="true" signature="15898:37780" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#thisWindowOpened#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemSaveAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#saveAs#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#savePicture#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemOpenAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#loadMandala#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala1#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala2#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala3#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala4#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala5#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabAccept#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updatePencilWidth#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRandom#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSet#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlack#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabWhite#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabCrimson#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBrown#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRed#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPink#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabOrange#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabYellow#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSun#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSand#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabGreyBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPurple#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLila#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#determineColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updateColorData#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#catchColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#Random#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#dropColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#PencilDrawning#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#FillShape#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#floodLoop#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#isEqualRgb#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1531518506265" expanded="false" signature="344:1704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1531518506265" expanded="true" signature="15898:37780" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#thisWindowOpened#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemSaveAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#saveAs#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#savePicture#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemOpenAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#loadMandala#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala1#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala2#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala3#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala4#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala5#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabAccept#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updatePencilWidth#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRandom#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSet#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlack#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabWhite#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabCrimson#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBrown#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRed#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPink#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabOrange#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabYellow#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSun#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSand#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabGreyBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPurple#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLila#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#determineColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updateColorData#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#catchColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#Random#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#dropColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#PencilDrawning#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#FillShape#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#floodLoop#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#isEqualRgb#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1531518506265" expanded="false" signature="344:1704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1531518506265" expanded="true" signature="15898:37780" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#thisWindowOpened#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemSaveAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#saveAs#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#savePicture#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemOpenAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#loadMandala#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala1#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala2#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala3#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala4#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala5#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabAccept#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updatePencilWidth#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRandom#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSet#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlack#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabWhite#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabCrimson#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBrown#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRed#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPink#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabOrange#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabYellow#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSun#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSand#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabGreyBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPurple#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLila#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#determineColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updateColorData#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#catchColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#Random#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#dropColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#PencilDrawning#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#FillShape#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#floodLoop#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#isEqualRgb#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1531518506265" expanded="false" signature="344:1704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1531518506265" expanded="true" signature="15898:37780" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2832">
-          <caret line="464" column="123" lean-forward="false" selection-start-line="464" selection-start-column="6" selection-end-line="464" selection-end-column="6" />
-          <folding>
-            <element signature="method#thisWindowOpened#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemSaveAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#saveAs#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#savePicture#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemOpenAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#loadMandala#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala1#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala2#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala3#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala4#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala5#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabAccept#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updatePencilWidth#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRandom#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSet#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlack#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabWhite#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabCrimson#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBrown#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRed#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPink#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabOrange#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabYellow#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSun#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSand#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabGreyBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPurple#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLila#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#determineColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updateColorData#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#catchColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#Random#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#dropColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#PencilDrawning#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#FillShape#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#floodLoop#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#isEqualRgb#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1531518506265" expanded="false" signature="344:1704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1531518506265" expanded="true" signature="15898:37780" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$JAVATRAINING$/JDK/src.zip!/java/awt/event/MouseMotionAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="55" column="22" lean-forward="false" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        <state relative-caret-position="352">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$JAVATRAINING$/JDK/src.zip!/java/awt/event/MouseAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cz/czechitas/mandala/HlavniOkno.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="1022" column="54" lean-forward="false" selection-start-line="1022" selection-start-column="54" selection-end-line="1022" selection-end-column="54" />
+        <state relative-caret-position="224">
+          <caret line="1098" column="91" lean-forward="false" selection-start-line="1098" selection-start-column="91" selection-end-line="1098" selection-end-column="91" />
           <folding>
-            <element signature="method#thisWindowOpened#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemSaveAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#saveAs#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#savePicture#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#menuItemOpenAction#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#loadMandala#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala1#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala2#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala3#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala4#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabMandala5#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabAccept#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updatePencilWidth#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRandom#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSet#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlack#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabWhite#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGrey#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabCrimson#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBrown#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabRed#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPink#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabOrange#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabYellow#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSun#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSand#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLightGreen#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabSky#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabDarkBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabGreyBlue#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabPurple#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#onClickLabLila#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#determineColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#updateColorData#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#catchColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#Random#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#dropColor#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#PencilDrawning#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#FillShape#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#floodLoop#0;class#HlavniOkno#0" expanded="false" />
-            <element signature="method#isEqualRgb#0;class#HlavniOkno#0" expanded="false" />
-            <marker date="1531518506265" expanded="false" signature="344:1704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1531518506265" expanded="true" signature="15898:37780" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1547271491270" expanded="false" signature="342:1702" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1547271491270" expanded="true" signature="15884:37750" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/desktopapp/HlavniOkno.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="180" propertiesWidth="392" structureHeight="206" />
       </provider>
     </entry>
   </component>

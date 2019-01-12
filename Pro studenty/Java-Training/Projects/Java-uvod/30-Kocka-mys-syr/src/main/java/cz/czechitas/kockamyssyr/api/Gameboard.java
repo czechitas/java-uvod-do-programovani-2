@@ -11,7 +11,6 @@ import net.sevecek.util.*;
 public class Gameboard {
 
     private static Gameboard instance = new Gameboard();
-    private Icon explosionSprite;
 
     public static Gameboard getInstance() {
         return instance;
@@ -27,6 +26,29 @@ public class Gameboard {
     private List<Tree> allTrees = new CopyOnWriteArrayList<>();
     private ExecutorService worker = Executors.newCachedThreadPool();
     private Map<Brain, Thread> brainThreads = new ConcurrentHashMap<>();
+    private Icon explosionSprite;
+
+    //-------------------------------------------------------------------------
+
+    public int getWidth() {
+        return Utils.invokeAndWait(() -> {
+            return MainWindow.getInstance().getContentPane().getWidth();
+        });
+    }
+
+    public int getHeight() {
+        return Utils.invokeAndWait(() -> {
+            return MainWindow.getInstance().getContentPane().getHeight();
+        });
+    }
+
+    public Dimension getSize() {
+        return Utils.invokeAndWait(() -> {
+            return MainWindow.getInstance().getContentPane().getSize();
+        });
+    }
+
+    //-------------------------------------------------------------------------
 
     synchronized void addPlayer(Player player) {
         allPlayers.add(player);
@@ -87,7 +109,7 @@ public class Gameboard {
         allTrees.add(tree);
     }
 
-    public void removeTree(Tree tree) {
+    synchronized void removeTree(Tree tree) {
         allTrees.remove(tree);
     }
 

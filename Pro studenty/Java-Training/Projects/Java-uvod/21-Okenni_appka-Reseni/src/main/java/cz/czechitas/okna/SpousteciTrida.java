@@ -15,7 +15,7 @@ public class SpousteciTrida {
         okno.setLocationRelativeTo(null);
         okno.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 
-        napis = new JLabel("Ahoj, zdraví Kamil");
+        napis = new JLabel("Ahoj, zdravi Kamil");
         napis.setHorizontalAlignment(SwingConstants.CENTER);
         okno.add(napis);
 

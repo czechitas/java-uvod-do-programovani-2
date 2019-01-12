@@ -27,6 +27,26 @@ public class HlavniProgram {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         /*
             // Ukazky pouziti trid Cheese, Mouse, Cat, Tree, Brain, KeyboardBrain
         Mouse jerry;
