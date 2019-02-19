@@ -8,13 +8,7 @@ Studentky si museji udelat instalaci na kurz v klidu doma. Instalace je ve forme
 Myslenka je podobna treba XAMPu, ktery se taky da jen stahnout, rozbalit a jet.
 
 Detailni pokyny k instalaci (webove stranky, ktere se zasilaji studentkam): <br/>
-http://javabrno.czechitas.cz/2018-jaro/install-community/
-
-Zdrojova forma toho popisu: <br/>
-https://github.com/czechitas/java-1/tree/master/Instalacni%20pokyny
-
-Pokud byste chteli vedet, co v instalcce je doopravdy, zde je popis: <br/>
-https://github.com/czechitas/java-1/tree/master/Pro%20lektory/Instalace
+http://javabrno.czechitas.cz/2019-jaro/install-community/
 
 
 
