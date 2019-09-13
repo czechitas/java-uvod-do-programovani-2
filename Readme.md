@@ -9,7 +9,7 @@ Cil workshopu
 
 * Predstavit Javu a osvetlit rozdil mezi Javou a jinymi jazyky
     * Udelat reklamu, proc zrovna Java
-    * Namotivovat k trimesicnimu kurzu Java I
+    * Namotivovat k trimesicnimu kurzu Czechitas Java 1
 
 * Naucit studentky trochu pracovat s IntelliJ IDEA
 

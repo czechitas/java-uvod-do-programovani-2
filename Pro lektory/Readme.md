@@ -4,11 +4,14 @@ Lektorske zapisky a doporuceni
 Instalace
 ---------
 
-Studentky si museji udelat instalaci na kurz v klidu doma. Instalace je ve forme prednastaveneho .zip archivu. Tedy, *neni to jen popis*, jake produkty si maji stahnout a nainstalovat, ale naopak je to cele uz nainstalovane a nastavene. 1 zip, ktery si jen rozbali a jede to. Tohle je hrozne dulezite, protoze toho nastavovani je javovem svete hodne (IntelliJ na JDK, Maven na JDK, IntelliJ na Maven, IntelliJ na Tomcat, Maven na Tomcat, Maven na repository, a tuny dalsiho).
-Myslenka je podobna treba XAMPu, ktery se taky da jen stahnout, rozbalit a jet.
+Studentky si museji udelat instalaci na kurz v klidu doma. Instalace je ve forme prednastaveneho .zip archivu.
+Tedy, *neni to jen popis*, jake produkty si maji stahnout a nainstalovat, ale naopak je to cele uz nainstalovane a nastavene.
+Jeden zip, ktery si jen rozbali a jede to. Tohle je hrozne dulezite, protoze toho nastavovani je javovem svete hodne
+(IntelliJ na JDK, Maven na JDK, IntelliJ na Maven, IntelliJ na Tomcat, Maven na Tomcat, Maven na repository, a tuny dalsiho).
+Myslenka je podobna treba XAMPPu, ktery se taky da jen stahnout, rozbalit a jet.
 
 Detailni pokyny k instalaci (webove stranky, ktere se zasilaji studentkam): <br/>
-http://javabrno.czechitas.cz/2019-jaro/install-community/
+https://javainstall.czechitas.cz/community/
 
 
 
@@ -16,19 +19,31 @@ Priklady
 --------
 
 Studentky si stahly instalacku, ale ta je univerzalni pro vsechny moje javove kurzy.
-Na workshopu si jeste budou potrebovat stahnout priklady, ktere si vlozi nejlepe do `C:\Java-Training\Projects\Java-uvod` (nebo `~/Java-Training/Projects/Java-uvod` na Macu).
-Doporucuji pripravit si soubor `.zip` se vsemy priklady, nahrat ho na GDrive a nechat sdilet s kymkoliv, kdo dostane odkaz. Do prezentace pak dat bit.ly na puvodni odkaz z GDrivu.
+Na workshopu si jeste budou potrebovat stahnout priklady, ktere si vlozi nejlepe do
+`C:\Java-Training\Projects\Java-uvod` na Windows (nebo `~/Java-Training/Projects/Java-uvod` na Macu).
+Doporucuji pripravit si soubor `.zip` se vsemy priklady, nahrat ho na GDrive a nechat sdilet s kymkoliv, kdo dostane odkaz.
+Do prezentace pak dat bit.ly na onen odkaz na GDrive.
 
 
 ### Maven repository
 
-Pozor, priklady pouzivaji Maven. Prvne spusteny Maven ma tendenci stahnout pulku internetu. Doporucuji s priklady zaroven studentkam nahrat celou vasi slozku repository `C:\Java-Training\Libraries`, aby nemusely uz nic stahovat z internetu.
+Pozor, priklady pouzivaji Maven. Prvne spusteny Maven ma tendenci stahnout pulku internetu.
+Zkontrolujte si proto, jestli v dane ucebne je dost silny internet.
 
 
 ### Spravne otevirani projektu v IntelliJ IDEA
 
-*POZOR* pri otevirani projektu v IntelliJ IDEA! V oteviracim dialogu IntelliJ IDEA se vybira cela slozka s projektem. Slozka s projektem je takova slozka, ktera obsahuje podslozku ".idea" a pripadne "src". Kdyz clovek otevre spravnou projektovou slozku, ma nahore behovou konfiguraci a zelenou sipku Run. Pokud ale clovek vybere omylem jinou slozku, ktera neni projektova (tzn. neobsahuje ".idea"), IDEA se uplne stupidne prepne do rezimu importu a naimportuje existujici slozku jako novy projekt (a vytvori si novou podslozku ".idea"). Dopadne to tak, ze vsechny tridy jsou cervene, nefunguje code completion, nejsou nastavene zadne knihovny a appka nejde spustit. Nejlepsi reseni je takovy paskvil projektu proste zavrit a otevrit projekt jeste jednou ve spravne slozce.
-Studentkam je dobre nekolikrat zopakovat a ukazat, ze se projektova slozka pozna podle pritomnosti "src" (na Linuxu a Macu totiz .idea neni videt, protoze soubory zacinajici teckou jsou skryte) a dat pozor, aby si to vzdycky otevrely spravne.
+*POZOR* pri otevirani projektu v IntelliJ IDEA! V oteviracim dialogu IntelliJ IDEA se vybira cela slozka s projektem.
+Slozka s projektem je takova slozka, ktera obsahuje podslozky ".idea" a "src".
+Kdyz clovek otevre spravnou projektovou slozku, ma nahore behovou konfiguraci a zelenou sipku Run.
+Pokud ale clovek vybere omylem nadrazenou slozku, ktera neobsahuje projekt (tzn. neobsahuje ".idea"),
+IDEA se uplne stupidne prepne do rezimu importu a naimportuje existujici slozku jako novy projekt
+(a vytvori si novou podslozku ".idea"). Dopadne to tak, ze vsechny tridy jsou cervene,
+nefunguje code completion, nejsou nastavene zadne knihovny a appka nejde spustit.
+Nejlepsi reseni je takovy paskvil projektu proste zavrit a otevrit projekt jeste jednou ve spravne slozce.
+Studentkam je dobre nekolikrat zopakovat a ukazat, ze se projektova slozka pozna podle pritomnosti "src"
+(na Linuxu a Macu totiz ".idea" neni videt, protoze soubory zacinajici teckou jsou skryte)
+a dat pozor, aby si to vzdycky otevrely spravne.
 
 
 
