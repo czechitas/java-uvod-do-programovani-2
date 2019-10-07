@@ -2,6 +2,7 @@ package cz.czechitas.kockamyssyr.api;
 
 import javax.swing.*;
 import cz.czechitas.kockamyssyr.engine.*;
+import cz.czechitas.kockamyssyr.engine.swing.*;
 
 public class Mouse extends FourWayPlayer {
 
@@ -13,7 +14,7 @@ public class Mouse extends FourWayPlayer {
             Icon upImage = Utils.loadSprite("mouse-up.png");
             init(leftImage, rightImage, upImage, downImage, x, y, PlayerType.GOOD);
         });
-        Gameboard.getInstance().addPlayer(this);
+        Gameplay.getInstance().addPlayer(this);
     }
 
 }

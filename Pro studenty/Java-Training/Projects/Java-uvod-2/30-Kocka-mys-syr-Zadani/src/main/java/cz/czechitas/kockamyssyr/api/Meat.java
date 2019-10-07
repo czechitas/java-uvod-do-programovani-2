@@ -4,11 +4,11 @@ import javax.swing.*;
 import cz.czechitas.kockamyssyr.engine.*;
 import cz.czechitas.kockamyssyr.engine.swing.*;
 
-public class Cheese extends Player {
+public class Meat extends Player {
 
-    public Cheese(int x, int y) {
+    public Meat(int x, int y) {
         Utils.invokeAndWait(() -> {
-            Icon image = Utils.loadSprite("cheese.png");
+            Icon image = Utils.loadSprite("meat.png");
             init(image, x, y, PlayerType.FOOD);
         });
         Gameplay.getInstance().addPlayer(this);
