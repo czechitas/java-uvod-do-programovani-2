@@ -1,4 +1,4 @@
-Uvod programovani II- Java - Czechitas
+Uvod programovani 2 - Java - Czechitas
 ======================================
 
 Jednodenni workshop o zakladnich konceptech OOP v Jave.
