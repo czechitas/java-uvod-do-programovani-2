@@ -9,307 +9,167 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="css/styles-doc.css"/>
 	<title>Nápověda k metodám v Javě</title>
 
-<!-- FONTY -->
+	<!-- FONTY -->
 	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lekton:400' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 	<div id="header">
-			<h1>Nápověda k metodám v Javě</h1>
+			<h1>Nápověda ke třídám a metodám v herním enginu Kočka-myš-sýr</h1>
 	</div>
 	<div id="content-wrap">
 		<div id="content">
-			<h2>Vizuální komponenty</h2>
-				<h3>JFrame <span class="normal">okno</span></h3>
+			<h2>Vizuální objekty</h2>
+				<h3>Tree <span class="normal">strom</span></h3>
 					<table>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setLocationRelativeTo(...)</td><td class="popisMetody">Nastavuje vycentrování nad oknem v závorce.</td></tr>
-						<tr><td class="navrTyp">Point souradnice =</td><td class="metoda"><span class="fialova">okno</span>.getLocation()</td><td class="popisMetody">Získává souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setLocation()</td><td class="popisMetody">Nastavuje souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setSize(cislo, cislo)</td><td class="popisMetody">Nastavuje velikost okna.</td></tr>
-						<tr><td class="navrTyp">Integer vyska =</td><td class="metoda"><span class="fialova">okno</span>.getHeight()</td><td class="popisMetody">Získává výšku komponenty.</td></tr>
-						<tr><td class="navrTyp">Integer sirka =</td><td class="metoda"><span class="fialova">okno</span>.getWidth()</td><td class="popisMetody">Získává šířku komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setBounds(x, y, sirka, vyska)</td><td class="popisMetody">Nastavuje souřadnice a rozměry komponenty.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">okno</span>.getBackground()</td><td class="popisMetody">Získává barvu pozadí.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setBackground(barva)</td><td class="popisMetody">Nastavuje barvu pozadí. U JLabelu je nutné mít nastavenou vlastnost opaque na true.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">okno</span>.getForeground(barva)</td><td class="popisMetody">Získává barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setForeground(barva)</td><td class="popisMetody">Nastavuje barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setFont(...)</td><td class="popisMetody">Nastavuje font komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setTitle("text")</td><td class="popisMetody">Nastavuje titulek okna.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setIconImage(...)</td><td class="popisMetody">Nastavuje ikonu do komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setEnabled(...)</td><td class="popisMetody">Nastavuje povolení komponenty.</td></tr> 
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setVisible(...)</td><td class="popisMetody">Nastavuje viditelnost komponenty, hodnota true / false.</td></tr>
-						<tr><td class="navrTyp">Boolean viditelny =</td><td class="metoda"><span class="fialova">okno</span>.isVisible()</td><td class="popisMetody">Zjišťuje viditelnost komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setDefaultCloseOperation(...)</td><td class="popisMetody">Nastavuje akci při zavření okna.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.addMouseListener(...)</td><td class="popisMetody">Přidává událost při zadané akci myší.</td></tr>
+						<tr><td class="navrTyp">int souradniceX =</td><td class="metoda"><span class="fialova">strom</span>.getX()</td><td class="popisMetody">Zjistí vzdálenost levé hrany obrázku od levé hrany okna.</td></tr>
+						<tr><td class="navrTyp">int souradniceY =</td><td class="metoda"><span class="fialova">strom</span>.getY()</td><td class="popisMetody">Zjistí vzdálenost horní hrany obrázku od horní hrany okna.</td></tr>
+						<tr><td class="navrTyp">int sirka =</td><td class="metoda"><span class="fialova">strom</span>.getWidth()</td><td class="popisMetody">Zjistí šířku obrázku.</td></tr>
+						<tr><td class="navrTyp">int vyska =</td><td class="metoda"><span class="fialova">strom</span>.getHeight()</td><td class="popisMetody">Zjistí výšku obrázku.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">strom</span>.remove()</td><td class="popisMetody">Odebere objekt z plochy.</td></tr>
+						<tr><td class="navrTyp">boolean jeOdebrany =</td><td class="metoda"><span class="fialova">strom</span>.isRemoved()</td><td class="popisMetody">Zjistí, zda je objekt již odebrán z plochy. Výchozí hodnota je false, protože po vytvoření je objekt zobrazen.</td></tr>
 					</table>
-				<h3>JLabel <span class="normal">labNapis</span></h3>
+				<h3>Cat <span class="normal">tom</span></h3>
 					<table>
-						<tr><td class="navrTyp">Point souradnice =</td><td class="metoda"><span class="fialova">labNapis</span>.getLocation()</td><td class="popisMetody">Získává souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">labNapis</span>.setLocation()</td><td class="popisMetody">Nastavuje souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">labNapis</span>.setSize(cislo, cislo)</td><td class="popisMetody">Nastavuje velikost okna.</td></tr>
-						<tr><td class="navrTyp">Integer vyska =</td><td class="metoda"><span class="fialova">labNapis</span>.getHeight()</td><td class="popisMetody">Získává výšku komponenty.</td></tr>
-						<tr><td class="navrTyp">Integer sirka =</td><td class="metoda"><span class="fialova">labNapis</span>.getWidth()</td><td class="popisMetody">Získává šířku komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">labNapis</span>.setBounds(x, y, sirka, vyska)</td><td class="popisMetody">Nastavuje souřadnice a rozměry komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">labNapis</span>.setBorder(...)</td><td class="popisMetody">Nastavuje okraje komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">labNapis</span>.setOpaque(...)</td><td class="popisMetody">Nastavuje neprůhlednost komponenty.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">labNapis</span>.getBackground()</td><td class="popisMetody">Získává barvu pozadí.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">labNapis</span>.setBackground(barva)</td><td class="popisMetody">Nastavuje barvu pozadí. U JLabelu je nutné mít nastavenou vlastnost opaque na true.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">labNapis</span>.getForeground(barva)</td><td class="popisMetody">Získává barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">labNapis</span>.setForeground(barva)</td><td class="popisMetody">Nastavuje barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">labNapis</span>.setFont(...)</td><td class="popisMetody">Nastavuje font komponenty.</td></tr>
-						<tr><td class="navrTyp">String text =</td><td class="metoda"><span class="fialova">labNapis</span>.getText()</td><td class="popisMetody">Získává z komponenty text.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">labNapis</span>.setText("text")</td><td class="popisMetody">Nastavuje (zobrazuje) do komponenty text.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">labNapis</span>.setHorizontalAlignment(...)</td><td class="popisMetody">Nastavuje zarovnání obsahu komponenty na ose x.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">labNapis</span>.setIcon(...)</td><td class="popisMetody">Nastavuje obrázek do komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">labNapis</span>.setEnabled(...)</td><td class="popisMetody">Nastavuje povolení komponenty.</td></tr> 
-						<tr><td class="navrTyp">Boolean viditelny =</td><td class="metoda"><span class="fialova">labNapis</span>.isVisible()</td><td class="popisMetody">Zjišťuje viditelnost komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">labNapis</span>.setVisible(...)</td><td class="popisMetody">Nastavuje viditelnost komponenty, hodnota true / false.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">labNapis</span>.addMouseListener(...)</td><td class="popisMetody">Přidává událost při zadané akci myší.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">tom</span>.moveForward()</td><td class="popisMetody">Posune postavičku ve směru, kam se kouká o 10 pixelů.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">tom</span>.moveForward(pocetPixelu)</td><td class="popisMetody">Posune postavičku ve směru, kam se kouká o pocetPixelu.</td></tr>
+						<tr><td class="navrTyp">boolean muzeJit =</td><td class="metoda"><span class="fialova">tom</span>.isPossibleToMoveForward()</td><td class="popisMetody">Zjistí, zda před sebou postavička nemá překážku a mohla by se tedy pohnout dopředu.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">tom</span>.turnLeft()</td><td class="popisMetody">Otočí postavičku o 90° doleva.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">tom</span>.turnRight()</td><td class="popisMetody">Otočí postavičku o 90° doprava.</td></tr>
+						<tr><td class="navrTyp">PlayerOrientation smer =</td><td class="metoda"><span class="fialova">tom</span>.getOrientation()</td><td class="popisMetody">Zjistí natočení postavičky (UP, RIGHT, DOWN, LEFT).</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">tom</span>.setOrientation(PlayerOrientation.KONSTANTA_SMERU)</td><td class="popisMetody">Natočí postavičku daným směrem (KONSTANTA_SMERU může být UP, RIGHT, DOWN, LEFT).</td></tr>
+						<tr><td class="navrTyp">Brain mozek =</td><td class="metoda"><span class="fialova">tom</span>.getBrain()</td><td class="popisMetody">Zjistí, jaké má postavička aktuálně nastavené ovládání (objekt typu Brain).</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">tom</span>.setBrain(nejakyMozek)</td><td class="popisMetody">Nastaví postavičce ovladač (mozek) - objekt typu Brain.</td></tr>
+						<tr><td class="navrTyp">PlayerType druhHrace =</td><td class="metoda"><span class="fialova">tom</span>.getType()</td><td class="popisMetody">Zjistí typ postavičky. Vždy bude PlayerType.BAD.</td></tr>
+						<tr><td class="navrTyp">int souradniceX =</td><td class="metoda"><span class="fialova">tom</span>.getX()</td><td class="popisMetody">Zjistí vzdálenost levé hrany obrázku od levé hrany okna.</td></tr>
+						<tr><td class="navrTyp">int souradniceY =</td><td class="metoda"><span class="fialova">tom</span>.getY()</td><td class="popisMetody">Zjistí vzdálenost horní hrany obrázku od horní hrany okna.</td></tr>
+						<tr><td class="navrTyp">int sirka =</td><td class="metoda"><span class="fialova">tom</span>.getWidth()</td><td class="popisMetody">Zjistí šířku obrázku.</td></tr>
+						<tr><td class="navrTyp">int vyska =</td><td class="metoda"><span class="fialova">tom</span>.getHeight()</td><td class="popisMetody">Zjistí výšku obrázku.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">tom</span>.remove()</td><td class="popisMetody">Odebere objekt z plochy.</td></tr>
+						<tr><td class="navrTyp">boolean jeOdebrany =</td><td class="metoda"><span class="fialova">tom</span>.isRemoved()</td><td class="popisMetody">Zjistí, zda je objekt již odebrán z plochy. Výchozí hodnota je false, protože po vytvoření je objekt zobrazen.</td></tr>
 					</table>
-				<h3>JTextField <span class="normal">txtTextovePole</span></h3>
+				<h3>Mouse <span class="normal">jerry</span></h3>
 					<table>
-						<tr><td class="navrTyp">Point souradnice =</td><td class="metoda"><span class="fialova">txtTextovePole</span>.getLocation()</td><td class="popisMetody">Získává souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">txtTextovePole</span>.setLocation()</td><td class="popisMetody">Nastavuje souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">txtTextovePole</span>.setSize(cislo, cislo)</td><td class="popisMetody">Nastavuje velikost okna.</td></tr>
-						<tr><td class="navrTyp">Integer vyska =</td><td class="metoda"><span class="fialova">txtTextovePole</span>.getHeight()</td><td class="popisMetody">Získává výšku komponenty.</td></tr>
-						<tr><td class="navrTyp">Integer sirka =</td><td class="metoda"><span class="fialova">txtTextovePole</span>.getWidth()</td><td class="popisMetody">Získává šířku komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">txtTextovePole</span>.setBounds(x, y, sirka, vyska)</td><td class="popisMetody">Nastavuje souřadnice a rozměry komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">txtTextovePole</span>.setBorder(...)</td><td class="popisMetody">Nastavuje okraje komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">txtTextovePole</span>.setOpaque(...)</td><td class="popisMetody">Nastavuje neprůhlednost komponenty.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">txtTextovePole</span>.getBackground()</td><td class="popisMetody">Získává barvu pozadí.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">txtTextovePole</span>.setBackground(barva)</td><td class="popisMetody">Nastavuje barvu pozadí. U JLabelu je nutné mít nastavenou vlastnost opaque na true.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">txtTextovePole</span>.getForeground(barva)</td><td class="popisMetody">Získává barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">txtTextovePole</span>.setForeground(barva)</td><td class="popisMetody">Nastavuje barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">txtTextovePole</span>.setFont(...)</td><td class="popisMetody">Nastavuje font komponenty.</td></tr>
-						<tr><td class="navrTyp">String text =</td><td class="metoda"><span class="fialova">txtTextovePole</span>.getText()</td><td class="popisMetody">Získává z komponenty text.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">txtTextovePole</span>.setText("text")</td><td class="popisMetody">Nastavuje (zobrazuje) do komponenty text.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">txtTextovePole</span>.setHorizontalAlignment(...)</td><td class="popisMetody">Nastavuje zarovnání obsahu komponenty na ose x.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">txtTextovePole</span>.setEditable(...)</td><td class="popisMetody">Nastavuje editovatelnost komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">txtTextovePole</span>.setEnabled(...)</td><td class="popisMetody">Nastavuje povolení komponenty.</td></tr> 
-						<tr><td class="navrTyp">Boolean viditelny =</td><td class="metoda"><span class="fialova">txtTextovePole</span>.isVisible()</td><td class="popisMetody">Zjišťuje viditelnost komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">txtTextovePole</span>.setVisible(...)</td><td class="popisMetody">Nastavuje viditelnost komponenty, hodnota true / false.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">txtTextovePole</span>.addMouseListener(...)</td><td class="popisMetody">Přidává událost při zadané akci myší.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">jerry</span>.moveForward()</td><td class="popisMetody">Posune postavičku ve směru, kam se kouká o 10 pixelů.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">jerry</span>.moveForward(pocetPixelu)</td><td class="popisMetody">Posune postavičku ve směru, kam se kouká o pocetPixelu.</td></tr>
+						<tr><td class="navrTyp">boolean muzeJit =</td><td class="metoda"><span class="fialova">jerry</span>.isPossiblejerryoveForward()</td><td class="popisMetody">Zjistí, zda před sebou postavička nemá překážku a mohla by se tedy pohnout dopředu.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">jerry</span>.turnLeft()</td><td class="popisMetody">Otočí postavičku o 90° doleva.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">jerry</span>.turnRight()</td><td class="popisMetody">Otočí postavičku o 90° doprava.</td></tr>
+						<tr><td class="navrTyp">PlayerOrientation smer =</td><td class="metoda"><span class="fialova">jerry</span>.getOrientation()</td><td class="popisMetody">Zjistí natočení postavičky (UP, RIGHT, DOWN, LEFT).</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">jerry</span>.setOrientation(PlayerOrientation.KONSTANTA_SMERU)</td><td class="popisMetody">Natočí postavičku daným směrem (KONSTANTA_SMERU může být UP, RIGHT, DOWN, LEFT).</td></tr>
+						<tr><td class="navrTyp">Brain mozek =</td><td class="metoda"><span class="fialova">jerry</span>.getBrain()</td><td class="popisMetody">Zjistí, jaké má postavička aktuálně nastavené ovládání (objekt typu Brain).</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">jerry</span>.setBrain(nejakyMozek)</td><td class="popisMetody">Nastaví postavičce ovladač (mozek) - objekt typu Brain.</td></tr>
+						<tr><td class="navrTyp">PlayerType druhHrace =</td><td class="metoda"><span class="fialova">jerry</span>.getType()</td><td class="popisMetody">Zjistí typ postavičky. Vždy bude PlayerType.GOOD.</td></tr>
+						<tr><td class="navrTyp">int souradniceX =</td><td class="metoda"><span class="fialova">jerry</span>.getX()</td><td class="popisMetody">Zjistí vzdálenost levé hrany obrázku od levé hrany okna.</td></tr>
+						<tr><td class="navrTyp">int souradniceY =</td><td class="metoda"><span class="fialova">jerry</span>.getY()</td><td class="popisMetody">Zjistí vzdálenost horní hrany obrázku od horní hrany okna.</td></tr>
+						<tr><td class="navrTyp">int sirka =</td><td class="metoda"><span class="fialova">jerry</span>.getWidth()</td><td class="popisMetody">Zjistí šířku obrázku.</td></tr>
+						<tr><td class="navrTyp">int vyska =</td><td class="metoda"><span class="fialova">jerry</span>.getHeight()</td><td class="popisMetody">Zjistí výšku obrázku.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">jerry</span>.remove()</td><td class="popisMetody">Odebere objekt z plochy.</td></tr>
+						<tr><td class="navrTyp">boolean jeOdebrany =</td><td class="metoda"><span class="fialova">jerry</span>.isRemoved()</td><td class="popisMetody">Zjistí, zda je objekt již odebrán z plochy. Výchozí hodnota je false, protože po vytvoření je objekt zobrazen.</td></tr>
 					</table>
-				<h3>JButton <span class="normal">btnTlacitko</span></h3>
+				<h3>Cheese <span class="normal">syr</span></h3>
 					<table>
-						<tr><td class="navrTyp">Point souradnice =</td><td class="metoda"><span class="fialova">btnTlacitko</span>.getLocation()</td><td class="popisMetody">Získává souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.setLocation()</td><td class="popisMetody">Nastavuje souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.setSize(cislo, cislo)</td><td class="popisMetody">Nastavuje velikost okna.</td></tr>
-						<tr><td class="navrTyp">Integer vyska =</td><td class="metoda"><span class="fialova">btnTlacitko</span>.getHeight()</td><td class="popisMetody">Získává výšku komponenty.</td></tr>
-						<tr><td class="navrTyp">Integer sirka =</td><td class="metoda"><span class="fialova">btnTlacitko</span>.getWidth()</td><td class="popisMetody">Získává šířku komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.setBounds(x, y, sirka, vyska)</td><td class="popisMetody">Nastavuje souřadnice a rozměry komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.setBorder(...)</td><td class="popisMetody">Nastavuje okraje komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.setOpaque(...)</td><td class="popisMetody">Nastavuje neprůhlednost komponenty.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">btnTlacitko</span>.getBackground()</td><td class="popisMetody">Získává barvu pozadí.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.setBackground(barva)</td><td class="popisMetody">Nastavuje barvu pozadí. U JLabelu je nutné mít nastavenou vlastnost opaque na true.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">btnTlacitko</span>.getForeground(barva)</td><td class="popisMetody">Získává barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.setForeground(barva)</td><td class="popisMetody">Nastavuje barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.setFont(...)</td><td class="popisMetody">Nastavuje font komponenty.</td></tr>
-						<tr><td class="navrTyp">String text =</td><td class="metoda"><span class="fialova">btnTlacitko</span>.getText()</td><td class="popisMetody">Získává z komponenty text.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.setText("text")</td><td class="popisMetody">Nastavuje (zobrazuje) do komponenty text.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.setHorizontalAlignment(...)</td><td class="popisMetody">Nastavuje zarovnání obsahu komponenty na ose x.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.setIcon(...)</td><td class="popisMetody">Nastavuje obrázek do komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.setEnabled(...)</td><td class="popisMetody">Nastavuje povolení komponenty.</td></tr> 
-						<tr><td class="navrTyp">Boolean viditelny =</td><td class="metoda"><span class="fialova">btnTlacitko</span>.isVisible()</td><td class="popisMetody">Zjišťuje viditelnost komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.setVisible(...)</td><td class="popisMetody">Nastavuje viditelnost komponenty, hodnota true / false.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.addActionListener(...)</td><td class="popisMetody">Přidává událost po kliknutí.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">btnTlacitko</span>.addMouseListener(...)</td><td class="popisMetody">Přidává událost při zadané akci myší.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">syr</span>.moveForward()</td><td class="popisMetody">Posune postavičku ve směru, kam se kouká o 10 pixelů.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">syr</span>.moveForward(pocetPixelu)</td><td class="popisMetody">Posune postavičku ve směru, kam se kouká o pocetPixelu.</td></tr>
+						<tr><td class="navrTyp">boolean muzeJit =</td><td class="metoda"><span class="fialova">syr</span>.isPossiblesyroveForward()</td><td class="popisMetody">Zjistí, zda před sebou postavička nemá překážku a mohla by se tedy pohnout dopředu.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">syr</span>.turnLeft()</td><td class="popisMetody">Otočí postavičku o 90° doleva.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">syr</span>.turnRight()</td><td class="popisMetody">Otočí postavičku o 90° doprava.</td></tr>
+						<tr><td class="navrTyp">PlayerOrientation smer =</td><td class="metoda"><span class="fialova">syr</span>.getOrientation()</td><td class="popisMetody">Zjistí natočení postavičky (UP, RIGHT, DOWN, LEFT).</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">syr</span>.setOrientation(PlayerOrientation.KONSTANTA_SMERU)</td><td class="popisMetody">Natočí postavičku daným směrem (KONSTANTA_SMERU může být UP, RIGHT, DOWN, LEFT).</td></tr>
+						<tr><td class="navrTyp">Brain mozek =</td><td class="metoda"><span class="fialova">syr</span>.getBrain()</td><td class="popisMetody">Zjistí, jaké má postavička aktuálně nastavené ovládání (objekt typu Brain).</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">syr</span>.setBrain(nejakyMozek)</td><td class="popisMetody">Nastaví postavičce ovladač (mozek) - objekt typu Brain.</td></tr>
+						<tr><td class="navrTyp">PlayerType druhHrace =</td><td class="metoda"><span class="fialova">syr</span>.getType()</td><td class="popisMetody">Zjistí typ postavičky. Vždy bude PlayerType.FOOD.</td></tr>
+						<tr><td class="navrTyp">int souradniceX =</td><td class="metoda"><span class="fialova">syr</span>.getX()</td><td class="popisMetody">Zjistí vzdálenost levé hrany obrázku od levé hrany okna.</td></tr>
+						<tr><td class="navrTyp">int souradniceY =</td><td class="metoda"><span class="fialova">syr</span>.getY()</td><td class="popisMetody">Zjistí vzdálenost horní hrany obrázku od horní hrany okna.</td></tr>
+						<tr><td class="navrTyp">int sirka =</td><td class="metoda"><span class="fialova">syr</span>.getWidth()</td><td class="popisMetody">Zjistí šířku obrázku.</td></tr>
+						<tr><td class="navrTyp">int vyska =</td><td class="metoda"><span class="fialova">syr</span>.getHeight()</td><td class="popisMetody">Zjistí výšku obrázku.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">syr</span>.remove()</td><td class="popisMetody">Odebere objekt z plochy.</td></tr>
+						<tr><td class="navrTyp">boolean jeOdebrany =</td><td class="metoda"><span class="fialova">syr</span>.isRemoved()</td><td class="popisMetody">Zjistí, zda je objekt již odebrán z plochy. Výchozí hodnota je false, protože po vytvoření je objekt zobrazen.</td></tr>
 					</table>
-				<h3>JComboBox <span class="normal">cmbVyberZeSeznamu</span></h3>
+				<h3>Meat <span class="normal">parek</span></h3>
 					<table>
-						<tr><td class="navrTyp">Point souradnice =</td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.getLocation()</td><td class="popisMetody">Získává souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.setLocation()</td><td class="popisMetody">Nastavuje souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.setSize(cislo, cislo)</td><td class="popisMetody">Nastavuje velikost okna.</td></tr>
-						<tr><td class="navrTyp">Integer vyska =</td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.getHeight()</td><td class="popisMetody">Získává výšku komponenty.</td></tr>
-						<tr><td class="navrTyp">Integer sirka =</td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.getWidth()</td><td class="popisMetody">Získává šířku komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.setBounds(x, y, sirka, vyska)</td><td class="popisMetody">Nastavuje souřadnice a rozměry komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.setBorder(...)</td><td class="popisMetody">Nastavuje okraje komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.setOpaque(...)</td><td class="popisMetody">Nastavuje neprůhlednost komponenty.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.getBackground()</td><td class="popisMetody">Získává barvu pozadí.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.setBackground(barva)</td><td class="popisMetody">Nastavuje barvu pozadí. U JLabelu je nutné mít nastavenou vlastnost opaque na true.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.getForeground(barva)</td><td class="popisMetody">Získává barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.setForeground(barva)</td><td class="popisMetody">Nastavuje barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.setFont(...)</td><td class="popisMetody">Nastavuje font komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.setEditable(...)</td><td class="popisMetody">Nastavuje editovatelnost komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.setEnabled(...)</td><td class="popisMetody">Nastavuje povolení komponenty.</td></tr> 
-						<tr><td class="navrTyp">Boolean viditelny =</td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.isVisible()</td><td class="popisMetody">Zjišťuje viditelnost komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.setVisible(...)</td><td class="popisMetody">Nastavuje viditelnost komponenty, hodnota true / false.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.addActionListener(...)</td><td class="popisMetody">Přidává událost po kliknutí.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">cmbVyberZeSeznamu</span>.addMouseListener(...)</td><td class="popisMetody">Přidává událost při zadané akci myší.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">parek</span>.moveForward()</td><td class="popisMetody">Posune postavičku ve směru, kam se kouká o 10 pixelů.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">parek</span>.moveForward(pocetPixelu)</td><td class="popisMetody">Posune postavičku ve směru, kam se kouká o pocetPixelu.</td></tr>
+						<tr><td class="navrTyp">boolean muzeJit =</td><td class="metoda"><span class="fialova">parek</span>.isPossibleparekoveForward()</td><td class="popisMetody">Zjistí, zda před sebou postavička nemá překážku a mohla by se tedy pohnout dopředu.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">parek</span>.turnLeft()</td><td class="popisMetody">Otočí postavičku o 90° doleva.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">parek</span>.turnRight()</td><td class="popisMetody">Otočí postavičku o 90° doprava.</td></tr>
+						<tr><td class="navrTyp">PlayerOrientation smer =</td><td class="metoda"><span class="fialova">parek</span>.getOrientation()</td><td class="popisMetody">Zjistí natočení postavičky (UP, RIGHT, DOWN, LEFT).</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">parek</span>.setOrientation(PlayerOrientation.KONSTANTA_SMERU)</td><td class="popisMetody">Natočí postavičku daným směrem (KONSTANTA_SMERU může být UP, RIGHT, DOWN, LEFT).</td></tr>
+						<tr><td class="navrTyp">Brain mozek =</td><td class="metoda"><span class="fialova">parek</span>.getBrain()</td><td class="popisMetody">Zjistí, jaké má postavička aktuálně nastavené ovládání (objekt typu Brain).</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">parek</span>.setBrain(nejakyMozek)</td><td class="popisMetody">Nastaví postavičce ovladač (mozek) - objekt typu Brain.</td></tr>
+						<tr><td class="navrTyp">PlayerType druhHrace =</td><td class="metoda"><span class="fialova">parek</span>.getType()</td><td class="popisMetody">Zjistí typ postavičky. Vždy bude PlayerType.FOOD.</td></tr>
+						<tr><td class="navrTyp">int souradniceX =</td><td class="metoda"><span class="fialova">parek</span>.getX()</td><td class="popisMetody">Zjistí vzdálenost levé hrany obrázku od levé hrany okna.</td></tr>
+						<tr><td class="navrTyp">int souradniceY =</td><td class="metoda"><span class="fialova">parek</span>.getY()</td><td class="popisMetody">Zjistí vzdálenost horní hrany obrázku od horní hrany okna.</td></tr>
+						<tr><td class="navrTyp">int sirka =</td><td class="metoda"><span class="fialova">parek</span>.getWidth()</td><td class="popisMetody">Zjistí šířku obrázku.</td></tr>
+						<tr><td class="navrTyp">int vyska =</td><td class="metoda"><span class="fialova">parek</span>.getHeight()</td><td class="popisMetody">Zjistí výšku obrázku.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">parek</span>.remove()</td><td class="popisMetody">Odebere objekt z plochy.</td></tr>
+						<tr><td class="navrTyp">boolean jeOdebrany =</td><td class="metoda"><span class="fialova">parek</span>.isRemoved()</td><td class="popisMetody">Zjistí, zda je objekt již odebrán z plochy. Výchozí hodnota je false, protože po vytvoření je objekt zobrazen.</td></tr>
 					</table>
-				<h3>JCheckBox <span class="normal">chkZaskrtavaciPole</span></h3>
+				<h3>GameManager <span class="normal">herniEngine</span></h3>
 					<table>
-						<tr><td class="navrTyp">Point souradnice =</td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.getLocation()</td><td class="popisMetody">Získává souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.setLocation()</td><td class="popisMetody">Nastavuje souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.setSize(cislo, cislo)</td><td class="popisMetody">Nastavuje velikost okna.</td></tr>
-						<tr><td class="navrTyp">Integer vyska =</td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.getHeight()</td><td class="popisMetody">Získává výšku komponenty.</td></tr>
-						<tr><td class="navrTyp">Integer sirka =</td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.getWidth()</td><td class="popisMetody">Získává šířku komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.setBounds(x, y, sirka, vyska)</td><td class="popisMetody">Nastavuje souřadnice a rozměry komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.setBorder(...)</td><td class="popisMetody">Nastavuje okraje komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.setOpaque(...)</td><td class="popisMetody">Nastavuje neprůhlednost komponenty.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.getBackground()</td><td class="popisMetody">Získává barvu pozadí.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.setBackground(barva)</td><td class="popisMetody">Nastavuje barvu pozadí. U JLabelu je nutné mít nastavenou vlastnost opaque na true.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.getForeground(barva)</td><td class="popisMetody">Získává barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.setForeground(barva)</td><td class="popisMetody">Nastavuje barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.setFont(...)</td><td class="popisMetody">Nastavuje font komponenty.</td></tr>
-						<tr><td class="navrTyp">String text =</td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.getText()</td><td class="popisMetody">Získává z komponenty text.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.setText("text")</td><td class="popisMetody">Nastavuje (zobrazuje) do komponenty text.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.setHorizontalAlignment(...)</td><td class="popisMetody">Nastavuje zarovnání obsahu komponenty na ose x.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.setIcon(...)</td><td class="popisMetody">Nastavuje obrázek do komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.setEnabled(...)</td><td class="popisMetody">Nastavuje povolení komponenty.</td></tr> 
-						<tr><td class="navrTyp">Boolean viditelny =</td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.isVisible()</td><td class="popisMetody">Zjišťuje viditelnost komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.setVisible(...)</td><td class="popisMetody">Nastavuje viditelnost komponenty, hodnota true / false.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.addActionListener(...)</td><td class="popisMetody">Přidává událost po kliknutí.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">chkZaskrtavaciPole</span>.addMouseListener(...)</td><td class="popisMetody">Přidává událost při zadané akci myší.</td></tr>
+						<tr><td class="navrTyp">int sirka =</td><td class="metoda"><span class="fialova">herniEngine</span>.getWidth()</td><td class="popisMetody">Zjistí šířku celého herního okna.</td></tr>
+						<tr><td class="navrTyp">int vyska =</td><td class="metoda"><span class="fialova">herniEngine</span>.getHeight()</td><td class="popisMetody">Zjistí výšku celého herního okna.</td></tr>
+						<tr><td class="navrTyp">Dimension rozmery =</td><td class="metoda"><span class="fialova">herniEngine</span>.getSize()</td><td class="popisMetody">Zjistí rozměry celého herního okna. Dimension obsahuje width a height.</td></tr>
 					</table>
-				<h3>JRadioButton <span class="normal">radPrepinac</span></h3>
-					<table>
-						<tr><td class="navrTyp">Point souradnice =</td><td class="metoda"><span class="fialova">okno</span>.getLocation()</td><td class="popisMetody">Získává souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setLocation()</td><td class="popisMetody">Nastavuje souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setSize(cislo, cislo)</td><td class="popisMetody">Nastavuje velikost okna.</td></tr>
-						<tr><td class="navrTyp">Integer vyska =</td><td class="metoda"><span class="fialova">okno</span>.getHeight()</td><td class="popisMetody">Získává výšku komponenty.</td></tr>
-						<tr><td class="navrTyp">Integer sirka =</td><td class="metoda"><span class="fialova">okno</span>.getWidth()</td><td class="popisMetody">Získává šířku komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setBounds(x, y, sirka, vyska)</td><td class="popisMetody">Nastavuje souřadnice a rozměry komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setBorder(...)</td><td class="popisMetody">Nastavuje okraje komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setOpaque(...)</td><td class="popisMetody">Nastavuje neprůhlednost komponenty.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">okno</span>.getBackground()</td><td class="popisMetody">Získává barvu pozadí.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setBackground(barva)</td><td class="popisMetody">Nastavuje barvu pozadí. U JLabelu je nutné mít nastavenou vlastnost opaque na true.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">okno</span>.getForeground(barva)</td><td class="popisMetody">Získává barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setForeground(barva)</td><td class="popisMetody">Nastavuje barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setFont(...)</td><td class="popisMetody">Nastavuje font komponenty.</td></tr>
-						<tr><td class="navrTyp">String text =</td><td class="metoda"><span class="fialova">okno</span>.getText()</td><td class="popisMetody">Získává z komponenty text.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setText("text")</td><td class="popisMetody">Nastavuje (zobrazuje) do komponenty text.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setHorizontalAlignment(...)</td><td class="popisMetody">Nastavuje zarovnání obsahu komponenty na ose x.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setIcon(...)</td><td class="popisMetody">Nastavuje obrázek do komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setEnabled(...)</td><td class="popisMetody">Nastavuje povolení komponenty.</td></tr> 
-						<tr><td class="navrTyp">Boolean viditelny =</td><td class="metoda"><span class="fialova">okno</span>.isVisible()</td><td class="popisMetody">Zjišťuje viditelnost komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setVisible(...)</td><td class="popisMetody">Nastavuje viditelnost komponenty, hodnota true / false.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.addActionListener(...)</td><td class="popisMetody">Přidává událost po kliknutí.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.addMouseListener(...)</td><td class="popisMetody">Přidává událost při zadané akci myší.</td></tr>
-					</table>
-				<h3>JTable <span class="normal">tabTabulka</span></h3>
-					<table>
-						<tr><td class="navrTyp">Point souradnice =</td><td class="metoda"><span class="fialova">okno</span>.getLocation()</td><td class="popisMetody">Získává souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setLocation()</td><td class="popisMetody">Nastavuje souřadnice levého horního rohu komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setSize(cislo, cislo)</td><td class="popisMetody">Nastavuje velikost okna.</td></tr>
-						<tr><td class="navrTyp">Integer vyska =</td><td class="metoda"><span class="fialova">okno</span>.getHeight()</td><td class="popisMetody">Získává výšku komponenty.</td></tr>
-						<tr><td class="navrTyp">Integer sirka =</td><td class="metoda"><span class="fialova">okno</span>.getWidth()</td><td class="popisMetody">Získává šířku komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setBounds(x, y, sirka, vyska)</td><td class="popisMetody">Nastavuje souřadnice a rozměry komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setBorder(...)</td><td class="popisMetody">Nastavuje okraje komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setOpaque(...)</td><td class="popisMetody">Nastavuje neprůhlednost komponenty.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">okno</span>.getBackground()</td><td class="popisMetody">Získává barvu pozadí.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setBackground(barva)</td><td class="popisMetody">Nastavuje barvu pozadí. U JLabelu je nutné mít nastavenou vlastnost opaque na true.</td></tr>
-						<tr><td class="navrTyp">Color barva =</td><td class="metoda"><span class="fialova">okno</span>.getForeground(barva)</td><td class="popisMetody">Získává barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setForeground(barva)</td><td class="popisMetody">Nastavuje barvu popředí, tedy textu.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setFont(...)</td><td class="popisMetody">Nastavuje font komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setEnabled(...)</td><td class="popisMetody">Nastavuje povolení komponenty.</td></tr> 
-						<tr><td class="navrTyp">Boolean viditelny =</td><td class="metoda"><span class="fialova">okno</span>.isVisible()</td><td class="popisMetody">Zjišťuje viditelnost komponenty.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.setVisible(...)</td><td class="popisMetody">Nastavuje viditelnost komponenty, hodnota true / false.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">okno</span>.addMouseListener(...)</td><td class="popisMetody">Přidává událost při zadané akci myší.</td></tr>
-					</table>
-			<h2>Nevizuální komponenty</h2>
+			<h2>Nevizuální objekty</h2>
 				<h3>Random <span class="normal">generatorNahodnychCisel</span></h3>
 					<table>
-						<tr><td class="navrTyp">Integer cislo =</td><td class="metoda"><span class="fialova">generatorNahodnychCisel</span>.nextInt(cislo)</td><td class="popisMetody">Generuje náhodná čísla v rozsahu 0 až číslo v závorce-1.</td></tr>
+						<tr><td class="navrTyp">int nahodneCislo =</td><td class="metoda"><span class="fialova">generatorNahodnychCisel</span>.nextInt(horniHranice)</td><td class="popisMetody">Jednorázově vygeneruje náhodné číslo v rozsahu 0 až horniHranice-1.</td></tr>
 					</table>
-				<h3>JTimer <span class="normal">casovac</span></h3>
+				<h3>Brain <span class="normal">abstraktniMozek</span></h3>
 					<table>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">casovac</span>.addActionListener(...)</td><td class="popisMetody">Přidává událost při tiknutí časovače.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">casovac</span>.setDelay(cislo)</td><td class="popisMetody">Nastavuje zpoždění mezi jednotlivými událostmi časovače v milisekundách.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">casovac</span>.setInitialDelay(cislo)</td><td class="popisMetody">Nastavuje zpoždění před první událostí časovače v milisekundách.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">casovac</span>.start()</td><td class="popisMetody">Spouští časovač.</td></tr>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">casovac</span>.stop()</td><td class="popisMetody">Ukončuje časovač.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">abstraktniMozek</span>.controlPlayer(postavicka)</td><td class="popisMetody">Je nutné naprogramovat jeden krok postavičky (Cat, Mouse, Cheese, Meat).</td></tr>
 					</table>
-				<h3>JKeyboard <span class="normal">klavesnice</span></h3>
+				<h3>KeyboardBrain <span class="normal">mozekPodleKlavesnice</span></h3>
 					<table>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">klavesnice</span>.isKeyDown(klavesa)</td><td class="popisMetody">Zjišťuje, zda je klávesa stisknutá. Klávesy se uvádějí jako VK_UP.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">mozekPodleKlavesnice</span>.controlPlayer(postavicka)</td><td class="popisMetody">Provede krok postavičky podle kláves (šipek ve výchozím nastavení).</td></tr>
 					</table>
-			<h2>Datové typy</h2>
 				<h3>String <span class="normal">retezec</span></h3>
 					<table>
-						<tr><td class="navrTyp">Integer cislo =</td><td class="metoda"><span class="fialova">retezec</span>.lenght()</td><td class="popisMetody">Zjišťuje délku Stringu.</td></tr>
-						<tr><td class="navrTyp">Char znak =</td><td class="metoda"><span class="fialova">retezec</span>.charAt()</td><td class="popisMetody"> </td></tr>
-					</table>
-				<h3>Integer <span class="normal">celeCislo</span></h3>
-					<table>
-						<tr><td class="navrTyp">String text =</td><td class="metoda"><span class="fialova">celeCislo</span>.toString()</td><td class="popisMetody">Převádí proměnnou na String.</td></tr>
-					</table>
-				<h3>Double <span class="normal">desetinneCislo</span></h3>
-					<table>
-						<tr><td class="navrTyp">String text =</td><td class="metoda"><span class="fialova">desetinneCislo</span>.toString()</td><td class="popisMetody">Převádí proměnnou na String.</td></tr>
-					</table>
-				<h3>Point <span class="normal">bod</span></h3>
-					<table>
-						<tr><td class="navrTyp">Integer cislo =</td><td class="metoda"><span class="fialova">bod</span>.getX()</td><td class="popisMetody">Vrací souřadnice X (obvykle levého horního rohu vizuální komponenty).</td></tr>
-						<tr><td class="navrTyp">Integer cislo =</td><td class="metoda"><span class="fialova">bod</span>.getY()</td><td class="popisMetody">Vrací souřadnice Y (obvykle levého horního rohu vizuální komponenty).</td></tr>
+						<tr><td class="navrTyp">int delka =</td><td class="metoda"><span class="fialova">retezec</span>.lenght()</td><td class="popisMetody">Zjišťuje délku Stringu.</td></tr>
+						<tr><td class="navrTyp">char znak =</td><td class="metoda"><span class="fialova">retezec</span>.charAt()</td><td class="popisMetody"> </td></tr>
 					</table>
 				<h3>Color <span class="normal">barva</span></h3>
 					<table>
-						<tr><td class="navrTyp">Integer cislo =</td><td class="metoda"><span class="fialova">barva</span>.getRed()</td><td class="popisMetody">Vrací barevnou složku - červenou. Jde o číslo 0 až 255.</td></tr>
-						<tr><td class="navrTyp">Integer cislo =</td><td class="metoda"><span class="fialova">barva</span>.getGreen()</td><td class="popisMetody">Vrací barevnou složku - zelenou. Jde o číslo 0 až 255.</td></tr>
-						<tr><td class="navrTyp">Integer cislo =</td><td class="metoda"><span class="fialova">barva</span>.getBlue()</td><td class="popisMetody">Vrací barevnou složku - modrou. Jde o číslo 0 až 255.</td></tr>
-						</table>
-				<h3>ActionEvent <span class="normal">udalost</span></h3>
-					<table>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">udalost</span>.getSource()</td><td class="popisMetody">Vrací komponentu, na kterou uživatel kliknul.</td></tr>
+						<tr><td class="navrTyp">int cislo =</td><td class="metoda"><span class="fialova">barva</span>.getRed()</td><td class="popisMetody">Zjistí barevnou složku - červenou. Jde o číslo 0 až 255.</td></tr>
+						<tr><td class="navrTyp">int cislo =</td><td class="metoda"><span class="fialova">barva</span>.getGreen()</td><td class="popisMetody">Zjistí barevnou složku - zelenou. Jde o číslo 0 až 255.</td></tr>
+						<tr><td class="navrTyp">int cislo =</td><td class="metoda"><span class="fialova">barva</span>.getBlue()</td><td class="popisMetody">Zjistí barevnou složku - modrou. Jde o číslo 0 až 255.</td></tr>
 					</table>
-				<h3>MouseEvent <span class="normal">udalostMysi</span></h3>
+			<h2>Výčtové typy (konstanty)</h2>
+				<h3>PlayerOrientation <span class="normal"></span></h3>
 					<table>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">udalostMysi</span>.getSource()</td><td class="popisMetody">Vrací komponentu, na kterou uživatel kliknul.</td></tr>
-						<!-- Kamča přidá později ;-) -->
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">PlayerOrientation</span>.UP</td><td class="popisMetody">Směr nahoru neboli na sever.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">PlayerOrientation</span>.RIGHT</td><td class="popisMetody">Směr doprava neboli na východ.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">PlayerOrientation</span>.DOWN</td><td class="popisMetody">Směr dolu neboli na jih.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">PlayerOrientation</span>.LEFT</td><td class="popisMetody">Směr doleva neboli na západ.</td></tr>
 					</table>
-				<h3>KeyEvent <span class="normal">udalostKlavesy</span></h3>
+				<h3>PlayerType <span class="normal"></span></h3>
 					<table>
-						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">udalostKlavesy</span>.getSource()</td><td class="popisMetody">Vrací komponentu, na kterou uživatel kliknul.</td></tr>
-						<!-- .getKeyCode() == KeyEvent.VK_LEFT -->
-						<!-- Kamča přidá později ;-) -->
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">PlayerType</span>.BAD</td><td class="popisMetody">Postavička je kočka (nahání).</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">PlayerType</span>.GOOD</td><td class="popisMetody">Postavička je myš (je naháněná).</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">PlayerType</span>.FOOD</td><td class="popisMetody">Postavička je sýr nebo párek (má být snězena myší).</td></tr>
+					</table>
+				<h3>KeyCode <span class="normal"></span></h3>
+					<table>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">KeyCode</span>.VK_W</td><td class="popisMetody">Kód klávesy W.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">KeyCode</span>.VK_A</td><td class="popisMetody">Kód klávesy A.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">KeyCode</span>.VK_S</td><td class="popisMetody">Kód klávesy S.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">KeyCode</span>.VK_D</td><td class="popisMetody">Kód klávesy D.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">KeyCode</span>.VK_ENTER</td><td class="popisMetody">Kód klávesy enter.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">KeyCode</span>.VK_SPACE</td><td class="popisMetody">Kód klávesy mezerník.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">KeyCode</span>.VK_UP</td><td class="popisMetody">Kód klávesy šipka nahoru.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">KeyCode</span>.VK_RIGHT</td><td class="popisMetody">Kód klávesy šipka doprava.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">KeyCode</span>.VK_DOWN</td><td class="popisMetody">Kód klávesy šipka dolů.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">KeyCode</span>.VK_LEFT</td><td class="popisMetody">Kód klávesy šipka doleva.</td></tr>
+						<tr><td class="navrTyp"></td><td class="metoda"><span class="fialova">KeyCode</span>.VK_<i>jakékoliv_písmeno</i></td><td class="popisMetody">Kód každé klávesy.</td></tr>
 					</table>
 		</div>
 	</div>
 	<div id="footer-wrap">
 		<div id="footer">
-			<p>2016, autoři: Hana Klimentová, Kamil Ševeček</tr>
+			<p>2020, autor: Kamil Ševeček</p>
 		</div>
 	</div>	
 </body>
 </html>
-
-<!-- 	NEPROŠLA JSEM VYPLŇOVÁNÍ V MANDALÁCH, mám?
-
-		.setFont(txtJmeno.getFont().deriveFont(txtJmeno.getFont().getSize() + 3f));
-		.setBounds(new Rectangle(new Point(20, 20), labJmeno.getPreferredSize()));
-		this.getRootPane().setDefaultButton(btnPozdravit);
-		.getKeyCode() == KeyEvent.VK_LEFT
-		SwingUtilities.invokeLater(SpousteciTrida::otevriOkno);
-
-		Container contentPane = getContentPane();
-        contentPane.setLayout(null);
-		contentPane.add(txtJmeno)
-				
-		addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowOpened(WindowEvent e) {
-                priOtevreniOkna(e);
-            }
-        });
-        addKeyListener(new KeyAdapter() {
-            @Override
-            public void keyPressed(KeyEvent e) {
-                priStiskuKlavesy(e);
-            }
-        });
-		
-		Dimension preferredSize = new Dimension();
-            for(int i = 0; i < contentPane.getComponentCount(); i++) {
-                Rectangle bounds = contentPane.getComponent(i).getBounds();
-                preferredSize.width = Math.max(bounds.x + bounds.width, preferredSize.width);
-                preferredSize.height = Math.max(bounds.y + bounds.height, preferredSize.height);
-            }
-            Insets insets = contentPane.getInsets();
-            preferredSize.width += insets.right;
-            preferredSize.height += insets.bottom;
-            contentPane.setMinimumSize(preferredSize);
-            contentPane.setPreferredSize(preferredSize);
-			
--->
