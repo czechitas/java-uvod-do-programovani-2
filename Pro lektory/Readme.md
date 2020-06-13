@@ -70,14 +70,7 @@ Scenar
 
 3. (Obed)
 
-4. Spolecne seznameni s hernim enginem Kocka, mys, syr
-    * Vypracovat dohromady par jednodussich ukolu. Inspirace dle Zadani.docx.
-
-5. Samostatna prace s hernim enginem Kocka, mys, syr
-    * Samostatne si studentky uz dal mohou zpracovavat dalsi ukoly ze Zadani.docx
-      nebo vylepsovat dle sve libovule.
-
-6. Diskuse
+4. Diskuse
     * O tom, co se studentky naucily
         * Trida
         * Objekt
@@ -106,16 +99,31 @@ Scenar
     https://www.youtube.com/watch?v=GI_V3yzVDtA
 
 
+5. Spolecne seznameni s hernim enginem Kocka, mys, syr
+    * Vypracovat dohromady par jednodussich ukolu. Inspirace dle Zadani.docx.
+
+6. Samostatna prace s hernim enginem Kocka, mys, syr
+    * Samostatne si studentky uz dal mohou zpracovavat dalsi ukoly ze Zadani.docx
+      nebo vylepsovat dle sve libovule.
+
+
+
 Video z minulych behu
 ---------------------
 
 Pro inspiraci, odkazy na videa z minula:
 
-Uvod do Javy 27. 1. 2018 <br/>
-https://www.youtube.com/watch?v=TQov3-c5BZs
+Uvod do programovani 2 - Java - 1. 12. 2019 <br/>
+https://www.youtube.com/watch?v=zq98nLJdsiQ
 
-Uvod do Javy 23. 6. 2018 <br/>
+Uvod do programovani 2 - Java - 14. 9. 2019 <br/>
+https://www.youtube.com/watch?v=1A0v5PuvwHo
+
+Uvod do OOP v Jave - 28. 7. 2018 <br/>
+https://www.youtube.com/watch?v=BWYp0kePluw
+
+Uvod do Javy - 23. 6. 2018 <br/>
 https://www.youtube.com/watch?v=_4wxGOGb7Hg
 
-Uvod do OOP v Jave 28. 7. 2018 <br/>
-https://www.youtube.com/watch?v=BWYp0kePluw
+Uvod do Javy - 27. 1. 2018 <br/>
+https://www.youtube.com/watch?v=TQov3-c5BZs
