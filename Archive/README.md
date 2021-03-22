@@ -1,4 +1,4 @@
-Archive
-=======
+Archív
+======
 
-Zde jsou aktualne nepouzivane projekty, u kterych by ale bylo skoda, kdyby zmizely v propadlisti dejin.
+Zde jsou aktualně nepoužívané projekty, u kterých by ale byla škoda, kdyby úplně zmizely v propadlišti dějin.

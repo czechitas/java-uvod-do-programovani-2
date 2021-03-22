@@ -1,129 +1,123 @@
-Lektorske zapisky a doporuceni
+Lektorské zápisky a doporučení
 ==============================
 
 Instalace
 ---------
 
-Studentky si museji udelat instalaci na kurz v klidu doma. Instalace je ve forme prednastaveneho .zip archivu.
-Tedy, *neni to jen popis*, jake produkty si maji stahnout a nainstalovat, ale naopak je to cele uz nainstalovane a nastavene.
-Jeden zip, ktery si jen rozbali a jede to. Tohle je hrozne dulezite, protoze toho nastavovani je javovem svete hodne
-(IntelliJ na JDK, Maven na JDK, IntelliJ na Maven, IntelliJ na Tomcat, Maven na Tomcat, Maven na repository, a tuny dalsiho).
-Myslenka je podobna treba XAMPPu, ktery se taky da jen stahnout, rozbalit a jet.
+Studentky si musejí udělat instalaci na kurz v klidu doma. Instalace je ve formě přednastaveného .zip archívu.
+Tedy: *Není to jen popis*, jaké produkty si mají stáhnout a nainstalovat, ale naopak je to celé už nainstalované a nastavené.
+Jeden zip, který si jen rozbalí a jede to. Tohle je hrozně důležité, protože toho nastavování je v javovém světě hodně
+(IntelliJ na JDK, Maven na JDK, IntelliJ na Maven, IntelliJ na Tomcat, Maven na Tomcat, Maven na repository, a tuny dalšího).
+Myšlenka je podobná třeba XAMPPu, u kterého taky stačí jen stáhnout, rozbalit a jet.
 
-Detailni pokyny k instalaci (webove stranky, ktere se zasilaji studentkam): <br/>
+Detailní pokyny k instalaci (webové stránky, které se zasílají studentkám): <br/>
 https://javainstall.czechitas.cz/community/
 
 
 
-Priklady
+Příklady
 --------
 
-Studentky si stahly instalacku, ale ta je univerzalni pro vsechny moje javove kurzy.
-Na workshopu si jeste budou potrebovat stahnout priklady, ktere si vlozi nejlepe do
-`C:\Java-Training\Projects\Java-uvod` na Windows (nebo `~/Java-Training/Projects/Java-uvod` na Macu).
-Doporucuji pripravit si soubor `.zip` se vsemy priklady, nahrat ho na GDrive a nechat sdilet s kymkoliv, kdo dostane odkaz.
-Do prezentace pak dat bit.ly na onen odkaz na GDrive.
+Studentky si stáhly instalacku, ale ta je univerzální pro všechny moje javové kurzy.
+Na workshopu si ještě budou muset stáhnout příklady, které si vloží nejlépe do
+`C:\Java-Training\Projects\Java-uvod-2` na Windows nebo `$HOME/Java-Training/Projects/Java-uvod-2` na Macu.
+Doporučuji připravit si soubor `.zip` se všemy příklady, nahrát ho na GDrive a nechat sdílet s kýmkoliv, kdo dostane odkaz.
+Do prezentace pak dát bit.ly na onen odkaz na GDrive.
 
 
 ### Maven repository
 
-Pozor, priklady pouzivaji Maven. Prvne spusteny Maven ma tendenci stahnout pulku internetu.
-Zkontrolujte si proto, jestli v dane ucebne je dost silny internet.
+Pozor, příklady používají Maven. Prvně spuštěný Maven má tendenci stáhnout půlku internetu.
+Zkontrolujte si proto, jestli v dané učebně je dost silný internet.
 
 
-### Spravne otevirani projektu v IntelliJ IDEA
+### Správné otevírání projektu v IntelliJ IDEA
 
-*POZOR* pri otevirani projektu v IntelliJ IDEA! V oteviracim dialogu IntelliJ IDEA se vybira cela slozka s projektem.
-Slozka s projektem je takova slozka, ktera obsahuje podslozky ".idea" a "src".
-Kdyz clovek otevre spravnou projektovou slozku, ma nahore behovou konfiguraci a zelenou sipku Run.
-Pokud ale clovek vybere omylem nadrazenou slozku, ktera neobsahuje projekt (tzn. neobsahuje ".idea"),
-IDEA se uplne stupidne prepne do rezimu importu a naimportuje existujici slozku jako novy projekt
-(a vytvori si novou podslozku ".idea"). Dopadne to tak, ze vsechny tridy jsou cervene,
-nefunguje code completion, nejsou nastavene zadne knihovny a appka nejde spustit.
-Nejlepsi reseni je takovy paskvil projektu proste zavrit a otevrit projekt jeste jednou ve spravne slozce.
-Studentkam je dobre nekolikrat zopakovat a ukazat, ze se projektova slozka pozna podle pritomnosti "src"
-(na Linuxu a Macu totiz ".idea" neni videt, protoze soubory zacinajici teckou jsou skryte)
-a dat pozor, aby si to vzdycky otevrely spravne.
+*POZOR* při otevírání projektu v IntelliJ IDEA! V otevíracím dialogu IntelliJ IDEA se vybírá celá složka s projektem.
+Složka s projektem je taková složka, která obsahuje podsložku `.idea` nebo importovatelnou konfiguraci (`pom.xml`, `build.gradle`).
+Když člověk otevře správnou projektovou složku, má nahoře běhovou konfiguraci a zelenou šipku Run.
+Pokud ale člověk vybere omylem nadřazenou složku, která neobsahuje projekt (tzn. neobsahuje `.idea`),
+IDEA se úplně stupidně přepne do režimu importu a naimportuje existující složku jako nový projekt
+(a vytvoří si novou podsložku `.idea`). Dopadne to tak, že všechny třídy jsou červené,
+nefunguje code completion, nejsou nastavené žádné knihovny a appka nejde spustit.
+Nejlepší řešení je takový paskvil projektu prostě zavřít a otevřít projekt ještě jednou ve správné složce.
+Studentkám je dobré několikrát zopakovat a ukázat, že se projektová složka pozná podle přítomnosti `src`
+(na Linuxu a Macu totiž `.idea` není vidět, protože soubory začínající tečkou jsou skryté)
+a dát pozor, aby si to vždycky otevřely správně.
 
 
 
-Scenar
+Scénář
 ------
 
-1. Spolecna prace - instanciovani nekterych trid v Java SE
-    * String
-    * Color
-    * LocalDate
-    * LocalTime
-    * LocalDateTime
-    
-    Nepovinne:
-    * Dimension
-    * Random
-    * Scanner
-    * DoubleFormatter
+1. Společná práce - instanciování některých tříd v Java SE
+* String
+* Color
+* LocalDate
+* LocalTime
+* LocalDateTime
 
-2. Spolecna prace - instanciovani vizualnich trid z JFC Swing
-    * JFrame
-    * JLabel
-    * Font
+Nepovinně:
+* Dimension
+* Random
+* Scanner
 
-3. (Obed)
+2. Samostatná práce
+
+3. (Oběd)
 
 4. Diskuse
-    * O tom, co se studentky naucily
-        * Trida
-        * Objekt
-            * Vlastnost
-            * Metoda
-        * Promenna
-    * Druhy programovacich jazyku
-        * Strojovy kod
-        * Strukturovane jazyky (C, Pascal)
-        * Objektove jazyky (Java, C#)
-    * Druhy behu
-        * Kompilovane jazyky
-        * Skriptovaci jazyky
-    * Co je to webova aplikace, androidova aplikace, desktopova aplikace
-    * Co je to cloud
-        * Cloudovy file hosting
-        * Cloudove dokumenty (Google Apps)
-        * Cloudovy web app hosting
-    * Cokoliv, co bude studentky zajimat
-    * Pozvani na dlouhodoby kurz Java 1
+* O tom, co se studentky naučily
+* Třída
+* Objekt
+* Vlastnost
+* Metoda
+* Proměnná
+* Druhy programovacích jazyků
+* Strojový kód
+* Systémové (C, C++, Go, Rust)
+* Aplikační jazyky (Java, C#, Swift, Kotlin)
+* Skriptovací jazyky (JavaScript, Python, PHP)
+* Co je to webová aplikace, androidová aplikace, desktopová aplikace
+* Co je to cloud
+    * Cloudový file hosting
+    * Cloudové dokumenty (Google Apps)
+    * Cloudový web app hosting
+* Cokoliv, co bude studentky zajímat
+* Pozvání na dlouhodobý kurz Java 1
 
-    Tip pro studentky na zdroj k precteni: <br/>
+    Tip pro studentky k přečtení: <br/>
     https://www.itnetwork.cz/java/oop/java-tutorial-uvod-do-objektove-orientovaneho-programovani
 
     Gary Explains: <br/>
     https://www.youtube.com/watch?v=GI_V3yzVDtA
 
 
-5. Spolecne seznameni s hernim enginem Kocka, mys, syr
-    * Vypracovat dohromady par jednodussich ukolu. Inspirace dle Zadani.docx.
+5. Společné seznámení s herním enginem **Kočka, myš, sýr**
+    * Vypracovat dohromady pár jednodušších úkolů. Inspirace dle `Zadani.docx`.
 
-6. Samostatna prace s hernim enginem Kocka, mys, syr
-    * Samostatne si studentky uz dal mohou zpracovavat dalsi ukoly ze Zadani.docx
-      nebo vylepsovat dle sve libovule.
+6. Samostatná práce s herním enginem **Kočka, myš, sýr**
+    * Samostatně si studentky už dál mohou zpracovávat další úkoly ze `Zadani.docx`
+      nebo vylepšovat dle své libovůle.
 
 
 
-Video z minulych behu
+Video z minulých běhů
 ---------------------
 
 Pro inspiraci, odkazy na videa z minula:
 
-Uvod do programovani 2 - Java - 1. 12. 2019 <br/>
+Úvod do programování 2 - Java - 1. 12. 2019 <br/>
 https://www.youtube.com/watch?v=zq98nLJdsiQ
 
-Uvod do programovani 2 - Java - 14. 9. 2019 <br/>
+Úvod do programování 2 - Java - 14. 9. 2019 <br/>
 https://www.youtube.com/watch?v=1A0v5PuvwHo
 
-Uvod do OOP v Jave - 28. 7. 2018 <br/>
+Úvod do OOP v Javě - 28. 7. 2018 <br/>
 https://www.youtube.com/watch?v=BWYp0kePluw
 
-Uvod do Javy - 23. 6. 2018 <br/>
+Úvod do Javy - 23. 6. 2018 <br/>
 https://www.youtube.com/watch?v=_4wxGOGb7Hg
 
-Uvod do Javy - 27. 1. 2018 <br/>
+Úvod do Javy - 27. 1. 2018 <br/>
 https://www.youtube.com/watch?v=TQov3-c5BZs

@@ -1,4 +1,4 @@
-Obsah sdilitelny se studenty
-============================
+Obsah určený k sdílení se studenty
+==================================
 
-Obsah teto slozky je pripraveny tak, aby se dal zabalit a nasdilet studentkam.
+Obsah této složky je pripřaven tak, aby se dal zabalit a nasdílet studentkám.

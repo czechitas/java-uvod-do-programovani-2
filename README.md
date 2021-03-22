@@ -1,28 +1,28 @@
-Uvod programovani 2 - Java - Czechitas
-======================================
+Úvod do programování 2 - Java - Czechitas
+=========================================
 
-Jednodenni workshop o zakladnich konceptech OOP v Jave.
+Jednodenní workshop o základních konceptech OOP v Javě.
 
 
-Cil workshopu
+Cíl workshopu
 -------------
 
-* Predstavit Javu a osvetlit rozdil mezi Javou a jinymi jazyky
-    * Udelat reklamu, proc zrovna Java
-    * Namotivovat k trimesicnimu kurzu Czechitas Java 1
+* Představit Javu a osvětlit rozdíl mezi Javou a jinými jazyky
+    * Udělat reklamu, proč zrovna Java
+    * Namotivovat k tříměsíčnímu kurzu Czechitas Java 1
 
-* Naucit studentky trochu pracovat s IntelliJ IDEA
+* Naučit studentky trochu pracovat s IntelliJ IDEA
 
-* Ukazat objekty v Jave
-    * Promenne nemuseji obsahovat jen cisla a textove retezce
-    * Instanciovani objektu
+* Ukázat objekty v Javě
+    * Proměnné nemusejí obsahovat jen čísla a textové řetězce
+    * Instanciování objektů
     * Metody
     * Vlastnosti
-    * Trida vs. objekt vs. promenna
+    * Třída vs. objekt vs. proměnná
 
 
-Vstupni znalosti
+Vstupní znalosti
 ----------------
 
-Ocekava se, ze studentky pred timto workshopem absolvovaly Uvod do programovani a umeji tedy promenne (cislo, retezec), podminky a cykly.
-V Uvodu do programovani se *neprobira* tvorba vlastnich funkcni, takze ty nejsou ocekvany ani zde.
+Očekává se, že studentky před tímto workshopem absolvovaly Úvod do programování 1 a rozumějí konceptům: **proměnná** (číslo, řetězec), **podmínka** a **cyklus**.
+V Úvodu do programování 1 se *neprobírá* tvorba vlastních funkcí, takže ty nejsou očekávány ani vytvářeny ani zde.
