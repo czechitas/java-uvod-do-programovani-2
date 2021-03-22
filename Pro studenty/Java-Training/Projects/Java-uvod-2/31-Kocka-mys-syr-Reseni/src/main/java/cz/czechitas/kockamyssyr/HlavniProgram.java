@@ -18,7 +18,8 @@ public class HlavniProgram {
 
         /*
         // Naprogramujte kočku tak, aby obešla digitální ležatou osmičku od kraje okna ke kraji.
-        Cat sylvester = new Cat(50, 50);
+        Cat sylvester;
+        sylvester = new Cat(50, 50);
         sylvester.moveForward(500);
         sylvester.turnRight();
         sylvester.moveForward(400);

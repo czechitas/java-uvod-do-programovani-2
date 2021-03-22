@@ -27,10 +27,10 @@ public class HlavniProgram {
                 pristiSyr = new Cheese(pristiSyrX, 0);
             }
             syr.turnRight();
-            while (syr.getY() < gameManager.getHeight() - 60 && !syr.isRemoved()) {
+            while (syr.getY() < gameManager.getHeight() - 60 && syr.isAlive()) {
                 syr.moveForward();
             }
-            if (!syr.isRemoved()) {
+            if (syr.isAlive()) {
                 break;
             }
             syr = pristiSyr;
